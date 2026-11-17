@@ -1,0 +1,4 @@
+scenedetect[opencv]
+numpy 
+pydantic 
+pytest
