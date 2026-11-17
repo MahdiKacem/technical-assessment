@@ -1,0 +1,22 @@
+{
+    "filename": "Barcelona vs Real Madrid (2017).mp4",
+    "file_size_bytes": 1312970315,
+    "duration_seconds": 6197.730975,
+    "video": {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720,
+        "fps": "25/1",
+        "pixel_format": "yuv420p"
+    },
+    "audio": {
+        "available": true,
+        "codec": "aac",
+        "sample_rate": "44100",
+        "channels": 2
+    },
+    "stream_counts": {
+        "video": 1,
+        "audio": 1
+    }
+}
