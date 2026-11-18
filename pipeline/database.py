@@ -68,6 +68,24 @@ def initialize_database(db_path: str) -> None:
             ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS transcriptions (
+        segment_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        start_time REAL NOT NULL,
+        end_time REAL NOT NULL,
+        text TEXT NOT NULL,
+
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_transcriptions_match
+        ON transcriptions(match_id);
+
+    CREATE INDEX IF NOT EXISTS idx_transcriptions_time
+        ON transcriptions(match_id, start_time, end_time);
+
     CREATE INDEX IF NOT EXISTS idx_shots_match
         ON shots(match_id);
 
@@ -195,6 +213,43 @@ def insert_keyframes(connection, keyframes: list[dict]):
             for keyframe in keyframes
         ],
     )
+def insert_transcriptions(
+    connection,
+    match_id: str,
+    segments: list[dict],
+) -> None:
+
+    rows = [
+        (
+            segment["segment_id"],
+            match_id,
+            segment["start_time"],
+            segment["end_time"],
+            segment["text"],
+        )
+        for segment in segments
+    ]
+
+    connection.executemany(
+        """
+        INSERT INTO transcriptions (
+            segment_id,
+            match_id,
+            start_time,
+            end_time,
+            text
+        )
+        VALUES (?, ?, ?, ?, ?)
+
+        ON CONFLICT(segment_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            start_time = excluded.start_time,
+            end_time = excluded.end_time,
+            text = excluded.text
+        """,
+        rows,
+    )
 
 
 def persist_ingestion(
@@ -216,3 +271,16 @@ def persist_ingestion(
         insert_keyframes(connection, keyframes)
 
     print(f"Successfully persisted ingestion for {match_id}")
+
+def persist_transcription(
+    db_path: str,
+    match_id: str,
+    segments: list[dict],
+) -> None:
+
+    with get_connection(db_path) as connection:
+        insert_transcriptions(
+            connection,
+            match_id,
+            segments,
+        )
