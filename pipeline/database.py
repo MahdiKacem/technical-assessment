@@ -221,6 +221,46 @@ def initialize_database(db_path: str) -> None:
             ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS multimodal_embeddings (
+        embedding_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        event_id TEXT,
+        source_type TEXT NOT NULL,
+        source_id TEXT,
+        timestamp REAL,
+        modality TEXT NOT NULL,
+        model_name TEXT NOT NULL,
+        model_version TEXT,
+        content_hash TEXT NOT NULL,
+        vector_store_id TEXT,
+        vector_json TEXT,
+        dimensions INTEGER,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE,
+        FOREIGN KEY (event_id)
+            REFERENCES events(event_id)
+            ON DELETE CASCADE,
+        CHECK (modality IN ('text', 'image'))
+    );
+
+    CREATE TABLE IF NOT EXISTS embedding_usage (
+        usage_id TEXT PRIMARY KEY,
+        match_id TEXT,
+        model_name TEXT NOT NULL,
+        modality TEXT NOT NULL,
+        item_count INTEGER NOT NULL,
+        cache_hits INTEGER NOT NULL DEFAULT 0,
+        input_tokens INTEGER,
+        output_tokens INTEGER,
+        estimated_cost REAL,
+        latency_ms INTEGER,
+        success INTEGER NOT NULL DEFAULT 1,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        CHECK (modality IN ('text', 'image', 'text_image'))
+    );
+
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
     ON scoreboard_observations(match_id, timestamp);
 
@@ -265,6 +305,15 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_event_keyframes_event
         ON event_keyframes(event_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_multimodal_match_time
+        ON multimodal_embeddings(match_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_multimodal_event
+        ON multimodal_embeddings(event_id);
+
+    CREATE INDEX IF NOT EXISTS idx_multimodal_cache
+        ON multimodal_embeddings(model_name, model_version, content_hash);
 
     CREATE INDEX IF NOT EXISTS idx_teams_match
         ON teams(match_id);

@@ -1,0 +1,2280 @@
+[
+    {
+        "event_id": "El classico 2017:goal:46.9:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:46.9:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=We've put them level on points with Los Blancos at the top of the Liga table. | timestamp=46.9 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription We've put them level on points with Los Blancos at the top of the Liga table."
+    },
+    {
+        "event_id": "El classico 2017:goal:46.9:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:46.9:candidate:transcript-window",
+        "content": "transcript_00001=Hello, and welcome to a buzzing Santiago Bernabéu | transcript_00002=for what is the biggest game on the planet. | transcript_00003=It's El Clásico, it's Real Madrid against Barça, | transcript_00004=and this season it's even more important than usual | transcript_00005=because Barça quite simply have to win."
+    },
+    {
+        "event_id": "El classico 2017:goal:89.18:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:89.18:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=For Real Madrid, it's Caleb Navas in goal, | timestamp=89.18 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription For Real Madrid, it's Caleb Navas in goal,"
+    },
+    {
+        "event_id": "El classico 2017:goal:89.18:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:89.18:candidate:transcript-window",
+        "content": "transcript_00012=So it's a huge opportunity for Luis Enriquez's side | transcript_00013=to put real pressure on Zidane's team | transcript_00014=and hopefully force them into a slip-up between now and the end of the campaign. | transcript_00015=What an atmosphere here at the Santiago Bernabéu | transcript_00016=for the second Clásico of the season."
+    },
+    {
+        "event_id": "El classico 2017:goal:173.7:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:173.7:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=That's six games without a goal. | timestamp=173.7 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription That's six games without a goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:173.7:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:173.7:candidate:transcript-window",
+        "content": "transcript_00033=Jordi Alba, Umtiti, Piquet and Sergi Roberto in defence. | transcript_00034=It's Idiesta, Sergio Bousquet and Racketich in midfield. | transcript_00035=And as we mentioned, Paco Alcázar lines up alongside Suarez and Leo Messi. | transcript_00036=Leo Messi, of course, who scored 21 goals in Clásicos. | transcript_00037=He is the leading scorer in the history of this fixture."
+    },
+    {
+        "event_id": "El classico 2017:goal:282.56:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:282.56:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=We put them level on points with Real Madrid, | timestamp=282.56 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription We put them level on points with Real Madrid,"
+    },
+    {
+        "event_id": "El classico 2017:goal:282.56:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:282.56:candidate:transcript-window",
+        "content": "transcript_00053=But from one thrilling contest to another, from golf now back to football, | transcript_00054=back to the Santiago Bernabéu. | transcript_00055=It's the two best teams in World Football taking on each other, | transcript_00056=and the two best players in World Football as well. | transcript_00057=Cristiano Ronaldo against Messi, it's Madrid against Barça,"
+    },
+    {
+        "event_id": "El classico 2017:goal:477.52:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:477.52:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=This time the full-back wins the header and finds Cristiano Ronaldo, | timestamp=477.52 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription This time the full-back wins the header and finds Cristiano Ronaldo,"
+    },
+    {
+        "event_id": "El classico 2017:goal:477.52:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:477.52:candidate:transcript-window",
+        "content": "transcript_00098=It's a throw that's going to be taken by Dani Carvajal. | transcript_00099=Turn round the corner by Modric, | transcript_00100=but it's given away and picked up by Paco Alcázar for his first touch. | transcript_00101=The ball finds its way to Suarez, but he's given possession away. | transcript_00102=It was a difficult one for him to bring under control,"
+    },
+    {
+        "event_id": "El classico 2017:goal:501.02:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:501.02:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and is out for a goal kick. | timestamp=501.02 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and is out for a goal kick."
+    },
+    {
+        "event_id": "El classico 2017:goal:501.02:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:501.02:candidate:transcript-window",
+        "content": "transcript_00106=Back with Cirque du Ramos now, | transcript_00107=plays the ball long looking for Dani Carvajal once again. | transcript_00108=This time the full-back wins the header and finds Cristiano Ronaldo, | transcript_00109=plays it through back into Dani Carvajal, who's in space here. | transcript_00110=His cross is cleared by Ivan Raketic."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:901.93",
+        "content": "event_type=near_miss | title=Near Miss | description=always dragging it wide of Kailor Navas' right-hand post. | timestamp=901.93 | entities={\"resolution_status\": \"likely\"} | evidence=transcription always dragging it wide of Kailor Navas' right-hand post."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:901.93:transcript-window",
+        "content": "transcript_00193=But he's back for this one, which is important. | transcript_00194=Real opportunity for Barca here tonight at the Santiago Bernabéu. | transcript_00195=As Geron Piquet slips, he's almost beaten to the ball by Karen Benzema. | transcript_00196=But he made up for it quickly. | transcript_00197=The Barca centre-back, Jordi Alba crosses the ball into Suarez."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:901.93:before",
+        "timestamp": 896.93,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_901.93/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:901.93:at_event",
+        "timestamp": 901.93,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_901.93/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:928.62",
+        "content": "event_type=near_miss | title=Near Miss | description=which whistled wide of Kailor Navas' right-hand post. | timestamp=928.62 | entities={\"resolution_status\": \"likely\"} | evidence=transcription which whistled wide of Kailor Navas' right-hand post."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:928.62:transcript-window",
+        "content": "transcript_00200=It was a good clean strike from Luis Suarez, but never on target, | transcript_00201=always dragging it wide of Kailor Navas' right-hand post. | transcript_00202=Good move from Barca, though. | transcript_00203=Had lots of space here, Luis Suarez, to get his shot away. | transcript_00204=So two opportunities so far in this game."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:928.62:before",
+        "timestamp": 923.62,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:928.62:at_event",
+        "timestamp": 928.62,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:928.62:after",
+        "timestamp": 933.62,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:938.44:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:938.44:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=10 minutes on the clock, nil-nil the score here | timestamp=938.44 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription 10 minutes on the clock, nil-nil the score here"
+    },
+    {
+        "event_id": "El classico 2017:goal:938.44:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:938.44:candidate:transcript-window",
+        "content": "transcript_00203=Had lots of space here, Luis Suarez, to get his shot away. | transcript_00204=So two opportunities so far in this game. | transcript_00205=Cristiano Ronaldo left-fitted strike straight at Ter Stegen. | transcript_00206=And a shot from outside of the area from Luis Suarez, | transcript_00207=which whistled wide of Kailor Navas' right-hand post."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:982.27:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=And that should be a yellow card. | timestamp=982.27 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And that should be a yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:982.27:candidate:transcript-window",
+        "content": "transcript_00211=Ivan Rakitic does really well here, Ivan Rakitic, | transcript_00212=to hold on to possession and finds Ter Stegen. | transcript_00213=Barca building from the back. | transcript_00214=It's Umtiti into Jordi Alba. | transcript_00215=Alba back to Umtiti, got a shot from Gareth Bale,"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:982.27:candidate:before",
+        "timestamp": 977.27,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:982.27:candidate:at_event",
+        "timestamp": 982.27,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:982.27:candidate:after",
+        "timestamp": 992.27,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=and picking up the first yellow card of the game deservedly so. | timestamp=1012.31 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and picking up the first yellow card of the game deservedly so."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:1012.31:candidate:transcript-window",
+        "content": "transcript_00218=And that should be a yellow card. | transcript_00219=It's a really poor challenge from Casamiro, to be fair. | transcript_00220=So the Real Madrid midfielder, he went over to Leo Messi immediately, | transcript_00221=helping the Argentine to his feet, and I'm sure apologising. | transcript_00222=Just got completely done here, the Brazilian by Leo Messi,"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1012.31:candidate:before",
+        "timestamp": 1007.31,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1012.31:candidate:at_event",
+        "timestamp": 1012.31,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1012.31:candidate:after",
+        "timestamp": 1022.31,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:1036.1799999999998:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:1036.1799999999998:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=His cross is a poor one, and it's out for a goal kick. | timestamp=1036.1799999999998 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription His cross is a poor one, and it's out for a goal kick."
+    },
+    {
+        "event_id": "El classico 2017:goal:1036.1799999999998:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:1036.1799999999998:candidate:transcript-window",
+        "content": "transcript_00224=And it was pure frustration from Casamiros. | transcript_00225=He hacked down Leo Messi, conceding the free kick, | transcript_00226=and picking up the first yellow card of the game deservedly so. | transcript_00227=12 minutes on the clock, Casamiro already in the referee's book. | transcript_00228=That, of course, one of a number of controversial decisions."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=should have picked up a second yellow card. | timestamp=1055.0 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription should have picked up a second yellow card. transcription before Arturo Vidal was shown a second yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:1055.0:candidate:transcript-window",
+        "content": "transcript_00228=That, of course, one of a number of controversial decisions. | transcript_00229=Support back pass from Gareth Bale, | transcript_00230=and it was almost snapped up by Jordi Alba. | transcript_00231=Here's Paco Alcáthor. | transcript_00232=His cross is a poor one, and it's out for a goal kick."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1055.0:candidate:before",
+        "timestamp": 1050.0,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1055.0:candidate:at_event",
+        "timestamp": 1055.0,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1055.0:candidate:after",
+        "timestamp": 1065.0,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:red_card:1058.4:candidate",
+        "content": "event_type=red_card_candidate | title=Red Card | description=And actually, should potentially have been sent off | timestamp=1058.4 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And actually, should potentially have been sent off"
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:red_card:1058.4:candidate:transcript-window",
+        "content": "transcript_00229=Support back pass from Gareth Bale, | transcript_00230=and it was almost snapped up by Jordi Alba. | transcript_00231=Here's Paco Alcáthor. | transcript_00232=His cross is a poor one, and it's out for a goal kick. | transcript_00233=What I was saying, that was one of many controversial decisions"
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:1058.4:candidate:before",
+        "timestamp": 1053.4,
+        "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:1058.4:candidate:at_event",
+        "timestamp": 1058.4,
+        "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:1058.4:candidate:after",
+        "timestamp": 1068.4,
+        "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Well, he's already got a yellow card in this game. | timestamp=1072.415 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Well, he's already got a yellow card in this game. transcription Have to play almost 80 minutes, knowing that he can't be booked again."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:1072.415:candidate:transcript-window",
+        "content": "transcript_00234=in that Champions League tie between Real Madrid and Bayern Munich. | transcript_00235=Casamiro, according to many pundits and football fans around the world, | transcript_00236=should have picked up a second yellow card. | transcript_00237=And actually, should potentially have been sent off | transcript_00238=before Arturo Vidal was shown a second yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1072.415:candidate:before",
+        "timestamp": 1067.415,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1072.415:candidate:at_event",
+        "timestamp": 1072.415,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:1072.415:candidate:after",
+        "timestamp": 1082.415,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:1090.1100000000001:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:1090.1100000000001:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=plays a long ball over the top, looking for Gareth Bale, who wins a header. | timestamp=1090.1100000000001 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription plays a long ball over the top, looking for Gareth Bale, who wins a header."
+    },
+    {
+        "event_id": "El classico 2017:goal:1090.1100000000001:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:1090.1100000000001:candidate:transcript-window",
+        "content": "transcript_00237=And actually, should potentially have been sent off | transcript_00238=before Arturo Vidal was shown a second yellow card. | transcript_00239=Many believing that Casamiro was pretty lucky to stay on the field of play. | transcript_00240=Well, he's already got a yellow card in this game. | transcript_00241=Have to play almost 80 minutes, knowing that he can't be booked again."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:1684.01",
+        "content": "event_type=near_miss | title=Near Miss | description=He's annoyed with himself as he blasts it over the crossbar | timestamp=1684.01 | entities={\"resolution_status\": \"likely\"} | evidence=transcription He's annoyed with himself as he blasts it over the crossbar"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:1684.01:transcript-window",
+        "content": "transcript_00366=Really tidy football once again from Football Club Barcelona, | transcript_00367=as Leo Messi plays it into space for Jordi Alba. | transcript_00368=He's going to be beaten to the ball by Danny Carvajal, | transcript_00369=who does well to find Casemiro, | transcript_00370=an excellent composure from Danny Carvajal in defence."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1684.01:before",
+        "timestamp": 1679.01,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1684.01:at_event",
+        "timestamp": 1684.01,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1684.01:after",
+        "timestamp": 1689.01,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:1788.92:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:1788.92:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Into Karin Benzema now, a long way from goal. | timestamp=1788.92 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Into Karin Benzema now, a long way from goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:1788.92:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:1788.92:candidate:transcript-window",
+        "content": "transcript_00386=Here's Toni Kroos. | transcript_00387=Now Modric. | transcript_00388=Back into Kroos. | transcript_00389=Marcelo. | transcript_00390=It's the Germany international, Toni Kroos once again,"
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:1955.25",
+        "content": "event_type=goal | title=Goal - home | description=Score changed from 0-0 to 1-0. | timestamp=1955.25 | entities={\"team\": \"home\", \"previous_score\": {\"home\": 0, \"away\": 0}, \"score\": {\"home\": 1, \"away\": 0}, \"resolution_status\": \"confirmed\", \"fusion_reason\": \"Scoreboard evidence with compatible support.\"} | evidence=scoreboard RMA BAR 27.52 1 0 transcription It's off the post, surely now, and it's Casamiro. transcription Well, it's the first goal of the game, transcription It's his third goal of this La Liga campaign. transcription The shot rebounded off the post and fell very kindly."
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:1955.25:transcript-window",
+        "content": "transcript_00426=Good challenge that was by Gerard Piquet. | transcript_00427=Corner for Madrid's here. | transcript_00428=Plenty of bodies back for Barça. | transcript_00429=Since it's punched clear by Ter Stegen, | transcript_00430=Gerard Piquet went up for it as well,"
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:goal:1955.25:before",
+        "timestamp": 1945.25,
+        "image_path": "event_keyframes/El_classico_2017_goal_1955.25/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:goal:1955.25:at_event",
+        "timestamp": 1955.25,
+        "image_path": "event_keyframes/El_classico_2017_goal_1955.25/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:goal:1955.25:after",
+        "timestamp": 1965.25,
+        "image_path": "event_keyframes/El_classico_2017_goal_1955.25/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:1998.36",
+        "content": "event_type=near_miss | title=Near Miss | description=It comes back off the post, | timestamp=1998.36 | entities={\"resolution_status\": \"likely\"} | evidence=transcription It comes back off the post,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:1998.36:transcript-window",
+        "content": "transcript_00437=The shot rebounded off the post and fell very kindly. | transcript_00438=For Carlos Enrique Casamiro, | transcript_00439=who slotted the ball home for the first goal of the game | transcript_00440=here at the Santiago Bernabéu. | transcript_00441=As the cross is played in,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1998.36:before",
+        "timestamp": 1993.36,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1998.36:at_event",
+        "timestamp": 1998.36,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:1998.36:after",
+        "timestamp": 2003.36,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:2024.52:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2024.52:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=So Casamiro with his third goal in La Liga of the campaign, | timestamp=2024.52 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription So Casamiro with his third goal in La Liga of the campaign,"
+    },
+    {
+        "event_id": "El classico 2017:goal:2024.52:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2024.52:candidate:transcript-window",
+        "content": "transcript_00443=but it's Sergio Ramos who makes contact with the ball. | transcript_00444=It comes back off the post, | transcript_00445=and it's very kind for Casamiro, | transcript_00446=who just has to put the ball into an empty net. | transcript_00447=Ivan Rakitic was sliding in,"
+    },
+    {
+        "event_id": "El classico 2017:goal:2210.42:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2210.42:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and there's the first goal of the game | timestamp=2210.42 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and there's the first goal of the game transcription with an absolutely stunning team goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:2210.42:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2210.42:candidate:transcript-window",
+        "content": "transcript_00481=Free kick taken short. | transcript_00482=Here's Samuel Mtiti. | transcript_00483=Every white shirt behind the ball for Real Madrid. | transcript_00484=And the passer-side at the moment, | transcript_00485=finding it very difficult to cut through"
+    },
+    {
+        "event_id": "El classico 2017:goal:2264.4:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2264.4:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=What a goal that was from football club Barcelona. | timestamp=2264.4 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription What a goal that was from football club Barcelona."
+    },
+    {
+        "event_id": "El classico 2017:goal:2264.4:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2264.4:candidate:transcript-window",
+        "content": "transcript_00499=and Leo Messi. | transcript_00500=They're just unstoppable. | transcript_00501=This passer-side sometimes. | transcript_00502=It was a wonderful move, | transcript_00503=finished off in real style"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:2288.13",
+        "content": "event_type=near_miss | title=Near Miss | description=Gets right underneath it and blasts it over the crossbar | timestamp=2288.13 | entities={\"resolution_status\": \"likely\"} | evidence=transcription Gets right underneath it and blasts it over the crossbar"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:2288.13:transcript-window",
+        "content": "transcript_00509=to make it Round Madrid 1, | transcript_00510=Barcelona 1. | transcript_00511=And game on here at the Santiago Bernabeu. | transcript_00512=What a goal that was from football club Barcelona. | transcript_00513=Well, there you see Cristiano Ronaldo's reaction"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2288.13:before",
+        "timestamp": 2283.13,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2288.13:at_event",
+        "timestamp": 2288.13,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2288.13:after",
+        "timestamp": 2293.13,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:2341.24:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2341.24:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=What a fine goal that is. | timestamp=2341.24 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription What a fine goal that is."
+    },
+    {
+        "event_id": "El classico 2017:goal:2341.24:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2341.24:candidate:transcript-window",
+        "content": "transcript_00524=and got the nod from Zidanez Zidane. | transcript_00525=Long ball over the top from Ter Stegen | transcript_00526=looking for the run of Paco Alcáthor. | transcript_00527=Certainly something that Barca have tried | transcript_00528=a few times in this game, mixing things up."
+    },
+    {
+        "event_id": "El classico 2017:goal:2401.17:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2401.17:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=who strikes one goal. | timestamp=2401.17 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription who strikes one goal. transcription and it'll be a goal kick."
+    },
+    {
+        "event_id": "El classico 2017:goal:2401.17:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2401.17:candidate:transcript-window",
+        "content": "transcript_00538=Terrible pass from Tony Cross. | transcript_00539=Into Suarez. | transcript_00540=It's not a good pass from Suarez either. | transcript_00541=He was looking to pick out Messi | transcript_00542=and it was intercepted by Sergio Ramos"
+    },
+    {
+        "event_id": "El classico 2017:goal:2501.58:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2501.58:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=As we see Leo Messi's goal, | timestamp=2501.58 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription As we see Leo Messi's goal,"
+    },
+    {
+        "event_id": "El classico 2017:goal:2501.58:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2501.58:candidate:transcript-window",
+        "content": "transcript_00570=Luis Enrique chatting to Iniesta and Leo Messi. | transcript_00571=Well, we're just seeing confirmation there | transcript_00572=that Ramos certainly wasn't offside. | transcript_00573=He was in line when that ball was played over the top. | transcript_00574=Ramos' shot coming back against the post"
+    },
+    {
+        "event_id": "El classico 2017:goal:2515.58:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2515.58:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Wonderful team goal from Football Club Barcelona. | timestamp=2515.58 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Wonderful team goal from Football Club Barcelona."
+    },
+    {
+        "event_id": "El classico 2017:goal:2515.58:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2515.58:candidate:transcript-window",
+        "content": "transcript_00571=Well, we're just seeing confirmation there | transcript_00572=that Ramos certainly wasn't offside. | transcript_00573=He was in line when that ball was played over the top. | transcript_00574=Ramos' shot coming back against the post | transcript_00575=and Casamiro finishing off."
+    },
+    {
+        "event_id": "El classico 2017:goal:2527.13:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2527.13:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=just at the point where Madrid had gone a goal up, | timestamp=2527.13 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription just at the point where Madrid had gone a goal up,"
+    },
+    {
+        "event_id": "El classico 2017:goal:2527.13:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2527.13:candidate:transcript-window",
+        "content": "transcript_00575=and Casamiro finishing off. | transcript_00576=As we see Leo Messi's goal, | transcript_00577=wonderful turn to get beyond Danny Carvajal. | transcript_00578=It was a good first-time pass as well from Ivan Rakitic, | transcript_00579=brilliantly finished off by Leo Messi."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=and it could be a yellow card for the Frenchman. | timestamp=2570.96 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it could be a yellow card for the Frenchman."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:2570.96:candidate:transcript-window",
+        "content": "transcript_00588=Real Madrid are going to be forced into an early change. | transcript_00589=Here's Sergio Roberto. | transcript_00590=Tees up Messi. | transcript_00591=Not the best first touch this time from Leo Messi | transcript_00592=and it's Karen Benzemao who brings it forward for Real Madrid."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2570.96:candidate:before",
+        "timestamp": 2565.96,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2570.96:candidate:at_event",
+        "timestamp": 2570.96,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2570.96:candidate:after",
+        "timestamp": 2580.96,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:substitution:2581.375:candidate",
+        "content": "event_type=substitution_candidate | title=Substitution | description=to replace Gareth Bale. | timestamp=2581.375 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription to replace Gareth Bale."
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:substitution:2581.375:candidate:transcript-window",
+        "content": "transcript_00589=Here's Sergio Roberto. | transcript_00590=Tees up Messi. | transcript_00591=Not the best first touch this time from Leo Messi | transcript_00592=and it's Karen Benzemao who brings it forward for Real Madrid. | transcript_00593=His pass inside is for Cristiano Ronaldo."
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:2581.375:candidate:before",
+        "timestamp": 2566.375,
+        "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:2581.375:candidate:at_event",
+        "timestamp": 2581.375,
+        "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:2581.375:candidate:after",
+        "timestamp": 2596.375,
+        "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=and it looks like it'll be a yellow card for Um Titi | timestamp=2596.28 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it looks like it'll be a yellow card for Um Titi"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:2596.28:candidate:transcript-window",
+        "content": "transcript_00593=His pass inside is for Cristiano Ronaldo. | transcript_00594=He's challenged by Samuel Titi | transcript_00595=and it could be a yellow card for the Frenchman. | transcript_00596=That's certainly what the Real Madrid players are suggesting. | transcript_00597=It's Marco Asensio who's going to come on for Real Madrid"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2596.28:candidate:before",
+        "timestamp": 2591.28,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2596.28:candidate:at_event",
+        "timestamp": 2596.28,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2596.28:candidate:after",
+        "timestamp": 2606.28,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:2688.2",
+        "content": "event_type=near_miss | title=Near Miss | description=Leo Messi's shot and it's just wide. | timestamp=2688.2 | entities={\"resolution_status\": \"likely\"} | evidence=transcription Leo Messi's shot and it's just wide."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:2688.2:transcript-window",
+        "content": "transcript_00611=Um Titi into Ter Stegen. | transcript_00612=Gareth Piquet back into the goalkeeper. | transcript_00613=57% possession for Football Club Barcelona. | transcript_00614=Dominating at least a possession start | transcript_00615=here at the Santiago Bernabéu."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2688.2:before",
+        "timestamp": 2683.2,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2688.2:at_event",
+        "timestamp": 2688.2,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2688.2:after",
+        "timestamp": 2693.2,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:2690.7:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2690.7:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Kailor Navas was scrambling across his goal line. | timestamp=2690.7 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Kailor Navas was scrambling across his goal line."
+    },
+    {
+        "event_id": "El classico 2017:goal:2690.7:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2690.7:candidate:transcript-window",
+        "content": "transcript_00611=Um Titi into Ter Stegen. | transcript_00612=Gareth Piquet back into the goalkeeper. | transcript_00613=57% possession for Football Club Barcelona. | transcript_00614=Dominating at least a possession start | transcript_00615=here at the Santiago Bernabéu."
+    },
+    {
+        "event_id": "El classico 2017:goal:2701.2:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2701.2:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=And handing Real Madrid a goal kick here. | timestamp=2701.2 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And handing Real Madrid a goal kick here."
+    },
+    {
+        "event_id": "El classico 2017:goal:2701.2:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2701.2:candidate:transcript-window",
+        "content": "transcript_00614=Dominating at least a possession start | transcript_00615=here at the Santiago Bernabéu. | transcript_00616=Here comes Suarez, no foul according to the referee. | transcript_00617=Now it's Messi, back over the top looking for Suarez. | transcript_00618=Back to Leo Messi."
+    },
+    {
+        "event_id": "El classico 2017:goal:2780.14:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2780.14:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=That Barca goal without a doubt the highlight of the match so far. | timestamp=2780.14 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription That Barca goal without a doubt the highlight of the match so far."
+    },
+    {
+        "event_id": "El classico 2017:goal:2780.14:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2780.14:candidate:transcript-window",
+        "content": "transcript_00634=and finds Andres Iniesta. | transcript_00635=Andiesta once again. | transcript_00636=Over to the far side where it's picked up by Sergio Roberto. | transcript_00637=Well, it's lived up to the spectacle this first half | transcript_00638=without any doubt."
+    },
+    {
+        "event_id": "El classico 2017:goal:2813.36:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:2813.36:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=which is exactly what they did for that Leo Messi goal. | timestamp=2813.36 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription which is exactly what they did for that Leo Messi goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:2813.36:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:2813.36:candidate:transcript-window",
+        "content": "transcript_00641=But Real Madrid have played their part too | transcript_00642=from what's been an enthralling contest so far. | transcript_00643=They're very well organised this Madrid side under Zidane. | transcript_00644=Pressuring high up the field, giving Barca no space or time. | transcript_00645=However, Barca showing that they can move the ball"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:2844.76",
+        "content": "event_type=near_miss | title=Near Miss | description=This shot just wide. | timestamp=2844.76 | entities={\"resolution_status\": \"likely\"} | evidence=transcription This shot just wide."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:2844.76:transcript-window",
+        "content": "transcript_00649=which is exactly what they did for that Leo Messi goal. | transcript_00650=Head of one by Sergio Ramos. | transcript_00651=It's back with Real Madrid now, and it's Marcelo on the far side. | transcript_00652=Marcelo's ball into the box. | transcript_00653=Not a good one."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2844.76:before",
+        "timestamp": 2839.76,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2844.76:at_event",
+        "timestamp": 2844.76,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:2844.76:after",
+        "timestamp": 2849.76,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Now it's Casemiro on a yellow card, don't forget. | timestamp=2939.865 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Now it's Casemiro on a yellow card, don't forget."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:2939.865:candidate:transcript-window",
+        "content": "transcript_00665=And they build up to that chance. | transcript_00666=Casemiro for Real Madrid. | transcript_00667=They put out a play by Ivan Rakitich. | transcript_00668=It's going to be a throw-in for Real Madrid deep in the Barca half. | transcript_00669=Marcelo into Tony Cross."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2939.865:candidate:before",
+        "timestamp": 2934.865,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2939.865:candidate:at_event",
+        "timestamp": 2939.865,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:2939.865:candidate:after",
+        "timestamp": 2949.865,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=and should be a second yellow card. | timestamp=3008.09 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and should be a second yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:3008.09:candidate:transcript-window",
+        "content": "transcript_00678=His Ascensio. | transcript_00679=Good first touch from Ascensio. | transcript_00680=He leaves it for Luca Modric. | transcript_00681=Luca Modric again. | transcript_00682=Excellent challenge from Jordi Alba"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3008.09:candidate:before",
+        "timestamp": 3003.09,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3008.09:candidate:at_event",
+        "timestamp": 3008.09,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3008.09:candidate:after",
+        "timestamp": 3018.09,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=that that should have been a second yellow card | timestamp=3039.43 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription that that should have been a second yellow card transcription He's on the yellow card and he's going to have"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:3039.43:candidate:transcript-window",
+        "content": "transcript_00690=Saying much the same, so to his Sergio Roberto. | transcript_00691=Casemiro, I think, is going to be lucky here. | transcript_00692=This could easily have been a second yellow. | transcript_00693=Well, there's no question that he catches Leo Messi. | transcript_00694=It's not as cynical as the first one, that's for sure."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3039.43:candidate:before",
+        "timestamp": 3034.43,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3039.43:candidate:at_event",
+        "timestamp": 3039.43,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3039.43:candidate:after",
+        "timestamp": 3049.43,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:3054.43:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3054.43:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Umtiti underneath it, can't win the header though. | timestamp=3054.43 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Umtiti underneath it, can't win the header though."
+    },
+    {
+        "event_id": "El classico 2017:goal:3054.43:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3054.43:candidate:transcript-window",
+        "content": "transcript_00694=It's not as cynical as the first one, that's for sure. | transcript_00695=But he stamps straight on Messi's toes. | transcript_00696=Well, Luis Enrique of the same opinion | transcript_00697=that that should have been a second yellow card | transcript_00698=for Casemiro."
+    },
+    {
+        "event_id": "El classico 2017:goal:3135.1:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3135.1:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It's almost an open goal. | timestamp=3135.1 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It's almost an open goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:3135.1:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3135.1:candidate:transcript-window",
+        "content": "transcript_00720=A rise smile from the Brazilian. | transcript_00721=So there'll just be time for this corner | transcript_00722=to be taken before half-time. | transcript_00723=Ivan Rakitich with it, | transcript_00724=sends it sailing in towards the back post."
+    },
+    {
+        "event_id": "El classico 2017:goal:3187.02:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3187.02:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=with his 22nd goal in this fixture. | timestamp=3187.02 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription with his 22nd goal in this fixture. transcription He's the highest-ever goal-scorer"
+    },
+    {
+        "event_id": "El classico 2017:goal:3187.02:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3187.02:candidate:transcript-window",
+        "content": "transcript_00737=Hello and welcome back to the Santiago Bernabéu | transcript_00738=to the second half of this enthralling classical | transcript_00739=between Real Madrid and Football Club Barcelona. | transcript_00740=What a first 45 minutes here at the Bernabéu. | transcript_00741=It was Real Madrid who scored first."
+    },
+    {
+        "event_id": "El classico 2017:goal:3211.48:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3211.48:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=And not only that, it was a stunning goal as well, | timestamp=3211.48 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And not only that, it was a stunning goal as well,"
+    },
+    {
+        "event_id": "El classico 2017:goal:3211.48:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3211.48:candidate:transcript-window",
+        "content": "transcript_00744=But before half-time, Leo Messi levelled things | transcript_00745=with his 22nd goal in this fixture. | transcript_00746=22 goals in classicos. | transcript_00747=He's the highest-ever goal-scorer | transcript_00748=in these games between Real Madrid and Football Club Barcelona."
+    },
+    {
+        "event_id": "El classico 2017:goal:3235.74:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3235.74:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=They then found the first goal through Casamiro, | timestamp=3235.74 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription They then found the first goal through Casamiro,"
+    },
+    {
+        "event_id": "El classico 2017:goal:3235.74:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3235.74:candidate:transcript-window",
+        "content": "transcript_00749=And that's now 30 goals for the season for Leo Messi. | transcript_00750=And not only that, it was a stunning goal as well, | transcript_00751=putting an end to a really good team move by Real Madrid, | transcript_00752=by Barca Picapodin. | transcript_00753=It was Real Madrid who probably started the stronger."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Casamiro picked up a yellow card, | timestamp=3250.24 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Casamiro picked up a yellow card,"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:3250.24:candidate:transcript-window",
+        "content": "transcript_00753=It was Real Madrid who probably started the stronger. | transcript_00754=They had a good few minutes at the beginning of the game, | transcript_00755=dominating possession, creating goalscoring opportunities. | transcript_00756=They then found the first goal through Casamiro, | transcript_00757=but after about 15 minutes, it was Barca"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3250.24:candidate:before",
+        "timestamp": 3245.24,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3250.24:candidate:at_event",
+        "timestamp": 3250.24,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3250.24:candidate:after",
+        "timestamp": 3260.24,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:3360.36:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3360.36:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=As the ball came across, there's always a danger of scoring an own goal | timestamp=3360.36 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription As the ball came across, there's always a danger of scoring an own goal"
+    },
+    {
+        "event_id": "El classico 2017:goal:3360.36:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3360.36:candidate:transcript-window",
+        "content": "transcript_00776=Modric getting a bit of a talking to from the referee. | transcript_00777=The ball through to Suarez, cut out by Casamiro. | transcript_00778=And here come Real Madrid. | transcript_00779=It's Asensio on the far side. | transcript_00780=He was a first-time substitute, of course, for the injured Gareth Bale."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:3430.96",
+        "content": "event_type=near_miss | title=Near Miss | description=And an excellent save by Marc-André Ter Stegen, | timestamp=3430.96 | entities={\"resolution_status\": \"likely\"} | evidence=transcription And an excellent save by Marc-André Ter Stegen,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:3430.96:transcript-window",
+        "content": "transcript_00795=Now it's Nacho for Real Madrid. | transcript_00796=It's a good turn by Danny Carvajal on the far side. | transcript_00797=Now it's Luca Modric. | transcript_00798=His pass intercepted, but possession still with Real Madrid. | transcript_00799=It's picked up on this near side by Marcello."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3430.96:before",
+        "timestamp": 3425.96,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3430.96:at_event",
+        "timestamp": 3430.96,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3430.96:after",
+        "timestamp": 3435.96,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Maybe the Frenchman lucky not to pick up a yellow card. | timestamp=3532.44 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Maybe the Frenchman lucky not to pick up a yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:3532.44:candidate:transcript-window",
+        "content": "transcript_00821=In fact, it's going to be a free kick for offside. | transcript_00822=Ronaldo in an offside position, and that ball was floated in | transcript_00823=by Tony Cross. | transcript_00824=Ter Stegen into Busquets. | transcript_00825=Busquets caught by Karin Benzema."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3532.44:candidate:before",
+        "timestamp": 3527.44,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3532.44:candidate:at_event",
+        "timestamp": 3532.44,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:3532.44:candidate:after",
+        "timestamp": 3542.44,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:3650.395:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3650.395:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It's a goal kick for Ter Stegen. | timestamp=3650.395 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It's a goal kick for Ter Stegen."
+    },
+    {
+        "event_id": "El classico 2017:goal:3650.395:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3650.395:candidate:transcript-window",
+        "content": "transcript_00850=Ascensio, that seemed a strange decision | transcript_00851=to have brought Gareth Bale back into the starting 11 | transcript_00852=if he wasn't 100% fit. | transcript_00853=The Welshman broke down in the first half, | transcript_00854=was forced off injured."
+    },
+    {
+        "event_id": "El classico 2017:goal:3752.16:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3752.16:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=The header from Ben Zamaru. | timestamp=3752.16 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription The header from Ben Zamaru."
+    },
+    {
+        "event_id": "El classico 2017:goal:3752.16:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3752.16:candidate:transcript-window",
+        "content": "transcript_00876=who just stands on the ball, | transcript_00877=and possessions back with Real Madrid. | transcript_00878=It's Tony Cruz. | transcript_00879=Slid through for Marcello. | transcript_00880=Marcello's cross is a good one."
+    },
+    {
+        "event_id": "El classico 2017:goal:3933.64:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3933.64:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Well, and truly, in goal-scoring range for Leo Messi here, | timestamp=3933.64 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Well, and truly, in goal-scoring range for Leo Messi here,"
+    },
+    {
+        "event_id": "El classico 2017:goal:3933.64:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3933.64:candidate:transcript-window",
+        "content": "transcript_00934=No question about it, clearly tripped by Marcelo. | transcript_00935=And here's that chance again for Paco Alcáthor. | transcript_00936=Well, he had a great opportunity to strike it with his left foot. | transcript_00937=Instead, tried to topoke it with his right into the corner, | transcript_00938=and it was a pretty easy save in the end for Kailo Navas."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:3944.14",
+        "content": "event_type=near_miss | title=Near Miss | description=and he does, and sends it over the crossbar. | timestamp=3944.14 | entities={\"resolution_status\": \"likely\"} | evidence=transcription and he does, and sends it over the crossbar."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:3944.14:transcript-window",
+        "content": "transcript_00937=Instead, tried to topoke it with his right into the corner, | transcript_00938=and it was a pretty easy save in the end for Kailo Navas. | transcript_00939=What a chance that was. | transcript_00940=Well, it's a free kick now for Baszler in a dangerous position. | transcript_00941=Well, and truly, in goal-scoring range for Leo Messi here,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3944.14:before",
+        "timestamp": 3939.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3944.14:at_event",
+        "timestamp": 3944.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:3944.14:after",
+        "timestamp": 3949.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:3952.14:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3952.14:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Looking for his 31st goal of the season, 22nd or 23rd, | timestamp=3952.14 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Looking for his 31st goal of the season, 22nd or 23rd,"
+    },
+    {
+        "event_id": "El classico 2017:goal:3952.14:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3952.14:candidate:transcript-window",
+        "content": "transcript_00940=Well, it's a free kick now for Baszler in a dangerous position. | transcript_00941=Well, and truly, in goal-scoring range for Leo Messi here, | transcript_00942=he's standing over the ball, so too is Ivan Rakatic. | transcript_00943=Looks like it will be Leo Messi to strike it, | transcript_00944=and he does, and sends it over the crossbar."
+    },
+    {
+        "event_id": "El classico 2017:goal:3995.02:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:3995.02:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=from Luis Suarez, that could have been another fantastic goal-scoring opportunity. | timestamp=3995.02 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription from Luis Suarez, that could have been another fantastic goal-scoring opportunity."
+    },
+    {
+        "event_id": "El classico 2017:goal:3995.02:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:3995.02:candidate:transcript-window",
+        "content": "transcript_00948=He's teetering on the edge of that milestone with 499 Barca goals currently. | transcript_00949=Here is Leo Messi. | transcript_00950=Plays it through the middle for Suarez. | transcript_00951=Well, it's a heavy touch from Luis Suarez, | transcript_00952=which takes the ball all the way into the goalkeeper Kailo Navas."
+    },
+    {
+        "event_id": "El classico 2017:goal:4053.69:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4053.69:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=looking for Gerard Piquet, who wins the header. | timestamp=4053.69 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription looking for Gerard Piquet, who wins the header."
+    },
+    {
+        "event_id": "El classico 2017:goal:4053.69:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4053.69:candidate:transcript-window",
+        "content": "transcript_00959=and it's out for a Barca corner. | transcript_00960=Danny Carvajal with a last touch. | transcript_00961=Well, here's that chance we saw just a moment ago. | transcript_00962=Leo Messi threading it through, | transcript_00963=and a heavy touch from Suarez,"
+    },
+    {
+        "event_id": "El classico 2017:goal:4150.02:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4150.02:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Wouldn't he love to score here again | timestamp=4150.02 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Wouldn't he love to score here again"
+    },
+    {
+        "event_id": "El classico 2017:goal:4150.02:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4150.02:candidate:transcript-window",
+        "content": "transcript_00985=It's an opportunity for us to see once again | transcript_00986=that headed effort from Gerard Piquet. | transcript_00987=Jumped brilliantly, | transcript_00988=made a really good connection with the ball as well, | transcript_00989=but couldn't direct it into the corner,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:4555.14",
+        "content": "event_type=near_miss | title=Near Miss | description=Finds Ronaldo! Oh, what a miss! | timestamp=4555.14 | entities={\"resolution_status\": \"likely\"} | evidence=transcription Finds Ronaldo! Oh, what a miss! transcription What a miss from Cristiano Ronaldo."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:4555.14:transcript-window",
+        "content": "transcript_01082=Goldwoods though. | transcript_01083=You can see in the replay the ball actually came off Ronaldo's knee. | transcript_01084=It's Jordi Alba just outside the Real Madrid area. | transcript_01085=Here's Cross deflected or blocked, I should say, by Nacho. | transcript_01086=Now it's Benzema for Real Madrid."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4555.14:before",
+        "timestamp": 4550.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4555.14:at_event",
+        "timestamp": 4555.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4555.14:after",
+        "timestamp": 4560.14,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:4570.33:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4570.33:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=The goal was at his mercy here. | timestamp=4570.33 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription The goal was at his mercy here."
+    },
+    {
+        "event_id": "El classico 2017:goal:4570.33:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4570.33:candidate:transcript-window",
+        "content": "transcript_01085=Here's Cross deflected or blocked, I should say, by Nacho. | transcript_01086=Now it's Benzema for Real Madrid. | transcript_01087=It's a good ball from him into Asensio. | transcript_01088=He's got Cristiano Ronaldo in support. | transcript_01089=Finds Ronaldo! Oh, what a miss!"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:4584.83",
+        "content": "event_type=near_miss | title=Near Miss | description=He was leaning right back and lifted it over the crossbar. | timestamp=4584.83 | entities={\"resolution_status\": \"likely\"} | evidence=transcription He was leaning right back and lifted it over the crossbar."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:4584.83:transcript-window",
+        "content": "transcript_01089=Finds Ronaldo! Oh, what a miss! | transcript_01090=What a miss from Cristiano Ronaldo. | transcript_01091=What an opportunity for Real Madrid and Ronaldo. | transcript_01092=Really should have scored and he knows it. | transcript_01093=The goal was at his mercy here."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4584.83:before",
+        "timestamp": 4579.83,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4584.83:at_event",
+        "timestamp": 4584.83,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4584.83:after",
+        "timestamp": 4589.83,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:4608.33",
+        "content": "event_type=near_miss | title=Near Miss | description=Suarez, whose effort was very well saved | timestamp=4608.33 | entities={\"resolution_status\": \"likely\"} | evidence=transcription Suarez, whose effort was very well saved"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:4608.33:transcript-window",
+        "content": "transcript_01096=His ball across for Cristiano Ronaldo was just asking to be | transcript_01097=tapped into an empty net. | transcript_01098=Ronaldo got it all wrong. | transcript_01099=He was leaning right back and lifted it over the crossbar. | transcript_01100=In fairness to the Portuguese, the pass from Asensio was"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4608.33:before",
+        "timestamp": 4603.33,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4608.33:at_event",
+        "timestamp": 4608.33,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4608.33:after",
+        "timestamp": 4613.33,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:4636.5:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4636.5:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Here's Rakitic, who wins the header. | timestamp=4636.5 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Here's Rakitic, who wins the header."
+    },
+    {
+        "event_id": "El classico 2017:goal:4636.5:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4636.5:candidate:transcript-window",
+        "content": "transcript_01107=The latest falling for Luis Suarez. | transcript_01108=Suarez, whose effort was very well saved | transcript_01109=by Kailor Navas. | transcript_01110=What a pass this is from Andrés Iniesta, | transcript_01111=with the outside of the boot into space."
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:substitution:4698.735:candidate",
+        "content": "event_type=substitution_candidate | title=Substitution | description=Substitution now for Real Madrid, | timestamp=4698.735 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Substitution now for Real Madrid,"
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:substitution:4698.735:candidate:transcript-window",
+        "content": "transcript_01132=Well, it's end-to-end stuff here, | transcript_01133=and the Santiago Bernabéu. | transcript_01134=The second half took a little time | transcript_01135=to get started, | transcript_01136=but the last few minutes have been enthralling."
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:4698.735:candidate:before",
+        "timestamp": 4683.735,
+        "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:4698.735:candidate:at_event",
+        "timestamp": 4698.735,
+        "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:4698.735:candidate:after",
+        "timestamp": 4713.735,
+        "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Casamiro, who's on a yellow card, is making way. | timestamp=4707.895 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Casamiro, who's on a yellow card, is making way."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:4707.895:candidate:transcript-window",
+        "content": "transcript_01134=The second half took a little time | transcript_01135=to get started, | transcript_01136=but the last few minutes have been enthralling. | transcript_01137=Matting the first half, | transcript_01138=which was excellent."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:4707.895:candidate:before",
+        "timestamp": 4702.895,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:4707.895:candidate:at_event",
+        "timestamp": 4707.895,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:4707.895:candidate:after",
+        "timestamp": 4717.895,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:4838.21",
+        "content": "event_type=near_miss | title=Near Miss | description=whose left-footed strike is very well saved | timestamp=4838.21 | entities={\"resolution_status\": \"likely\"} | evidence=transcription whose left-footed strike is very well saved"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:4838.21:transcript-window",
+        "content": "transcript_01167=Now it's with André Gomez. | transcript_01168=He finds Andrés Ciniesta. | transcript_01169=André Gomez | transcript_01170=drags his cross back, | transcript_01171=but he can only pick out Nacho,"
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4838.21:before",
+        "timestamp": 4833.21,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4838.21:at_event",
+        "timestamp": 4838.21,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:4838.21:after",
+        "timestamp": 4843.21,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:4889.62:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4889.62:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=What a goal that is by Ivan Raketic. | timestamp=4889.62 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription What a goal that is by Ivan Raketic."
+    },
+    {
+        "event_id": "El classico 2017:goal:4889.62:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4889.62:candidate:transcript-window",
+        "content": "transcript_01183=Well, it's a belter of an atmosphere | transcript_01184=here at the Santiago Bernabéu. | transcript_01185=And this is a really good result | transcript_01186=for Real Madrid in fairness. | transcript_01187=Barca really needs to win this one."
+    },
+    {
+        "event_id": "El classico 2017:goal:4902.62:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4902.62:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It's his seventh Liga goal of the season, | timestamp=4902.62 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It's his seventh Liga goal of the season,"
+    },
+    {
+        "event_id": "El classico 2017:goal:4902.62:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4902.62:candidate:transcript-window",
+        "content": "transcript_01188=Feta put pressure on Zidane's side at the top of the table. | transcript_01189=Real Madrid already with a three-point advantage. | transcript_01190=Don't forget, plus that game in hand against Celta. | transcript_01191=Here's Messi, | transcript_01192=just edging his way into the area."
+    },
+    {
+        "event_id": "El classico 2017:goal:4934.030000000001:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4934.030000000001:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=And it's a goal which momentarily | timestamp=4934.030000000001 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And it's a goal which momentarily transcription moves Barcelona level on points"
+    },
+    {
+        "event_id": "El classico 2017:goal:4934.030000000001:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4934.030000000001:candidate:transcript-window",
+        "content": "transcript_01199=It's his seventh Liga goal of the season, | transcript_01200=but he won't have scored many more important than that one. | transcript_01201=Ivan Raketic rifles a left-footed drive | transcript_01202=into the top corner | transcript_01203=beyond Calonavas and into the back of the net."
+    },
+    {
+        "event_id": "El classico 2017:goal:4944.1:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4944.1:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It could prove to be a huge, huge goal | timestamp=4944.1 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It could prove to be a huge, huge goal"
+    },
+    {
+        "event_id": "El classico 2017:goal:4944.1:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4944.1:candidate:transcript-window",
+        "content": "transcript_01202=into the top corner | transcript_01203=beyond Calonavas and into the back of the net. | transcript_01204=What a strike that is! | transcript_01205=Brilliant from Raketic as he buries it | transcript_01206=to make it Real Madrid 1,"
+    },
+    {
+        "event_id": "El classico 2017:goal:4970.6:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:4970.6:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and after Casamiro's goal strikes from Messi | timestamp=4970.6 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and after Casamiro's goal strikes from Messi"
+    },
+    {
+        "event_id": "El classico 2017:goal:4970.6:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:4970.6:candidate:transcript-window",
+        "content": "transcript_01210=with Real Madrid at the top of the table. | transcript_01211=It could prove to be a huge, huge goal | transcript_01212=and three massive points | transcript_01213=for Football Club Barcelona. | transcript_01214=There's still a long way to go."
+    },
+    {
+        "event_id": "El classico 2017:goal:5016.88:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5016.88:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=What a goal that was from Ivan Raketic. | timestamp=5016.88 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription What a goal that was from Ivan Raketic."
+    },
+    {
+        "event_id": "El classico 2017:goal:5016.88:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5016.88:candidate:transcript-window",
+        "content": "transcript_01222=Barca 2 with 73 minutes on the clock | transcript_01223=and Barca have scored two stunning goals in this game, | transcript_01224=two goals worthy of victory in any match. | transcript_01225=As the corners played in by Tony Cross, | transcript_01226=comes out to Luca Modric,"
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:red_card:5187.25",
+        "content": "event_type=red_card | title=Red card - SERGIO RAMOS | description=Red card - SERGIO RAMOS | timestamp=5187.25 | entities={\"team\": \"RMA\", \"player\": \"SERGIO RAMOS\", \"card_type\": \"red\", \"resolution_status\": \"confirmed\", \"fusion_reason\": \"Scoreboard evidence with compatible support.\"} | evidence=scoreboard red transcription It's a straight red card for Sergio Ramos transcription Well, it's another red card for Sergio Ramos,"
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:red_card:5187.25:transcript-window",
+        "content": "transcript_01254=Ben Samar plays the ball into the area towards Marcos Asensio | transcript_01255=and it's out by Gerard Piquet. | transcript_01256=It's a really poor challenge and a late one. | transcript_01257=Oh, it's a straight red for Sergio Ramos. | transcript_01258=It's a straight red card for Sergio Ramos"
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5187.25:before",
+        "timestamp": 5182.25,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5187.25:at_event",
+        "timestamp": 5187.25,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5187.25:after",
+        "timestamp": 5197.25,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:red_card:5215.66:candidate",
+        "content": "event_type=red_card_candidate | title=Red Card | description=Well, that's a red card. | timestamp=5215.66 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Well, that's a red card."
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:red_card:5215.66:candidate:transcript-window",
+        "content": "transcript_01261=but I never thought it was a red. | transcript_01262=Well, it's another red card for Sergio Ramos, | transcript_01263=who certainly cleaned his act up in recent seasons, | transcript_01264=but this was something we saw over and over again | transcript_01265=a few years back."
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5215.66:candidate:before",
+        "timestamp": 5210.66,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5215.66:candidate:at_event",
+        "timestamp": 5215.66,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5215.66:candidate:after",
+        "timestamp": 5225.66,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=Well, there's no question that that's a yellow card. | timestamp=5393.68 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Well, there's no question that that's a yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:5393.68:candidate:transcript-window",
+        "content": "transcript_01308=Superb goalkeeping from Kailor Navas, | transcript_01309=who smothered that one at the other, | transcript_01310=and it's Cristiano Ronaldo with the shot. | transcript_01311=Hamas about to come on for Real Madrid. | transcript_01312=Zidane determined to get back into this game."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5393.68:candidate:before",
+        "timestamp": 5388.68,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5393.68:candidate:at_event",
+        "timestamp": 5393.68,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5393.68:candidate:after",
+        "timestamp": 5403.68,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "content": "event_type=yellow_card_candidate | title=Yellow Card | description=and it's quite clearly a yellow card. | timestamp=5405.4 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it's quite clearly a yellow card."
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:yellow_card:5405.4:candidate:transcript-window",
+        "content": "transcript_01311=Hamas about to come on for Real Madrid. | transcript_01312=Zidane determined to get back into this game. | transcript_01313=And here comes Leo Messi. | transcript_01314=Well, it's 3 against 2, and it's Kovacic, | transcript_01315=who's going to go straight into the book"
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5405.4:candidate:before",
+        "timestamp": 5400.4,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5405.4:candidate:at_event",
+        "timestamp": 5405.4,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:yellow_card:5405.4:candidate:after",
+        "timestamp": 5415.4,
+        "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:5414.9:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5414.9:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It could have quite easily been the third goal. | timestamp=5414.9 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It could have quite easily been the third goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:5414.9:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5414.9:candidate:transcript-window",
+        "content": "transcript_01313=And here comes Leo Messi. | transcript_01314=Well, it's 3 against 2, and it's Kovacic, | transcript_01315=who's going to go straight into the book | transcript_01316=for a really poor challenge on Messi. | transcript_01317=Well, there's no question that that's a yellow card."
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:red_card:5478.98:candidate",
+        "content": "event_type=red_card_candidate | title=Red Card | description=was sent off for a two-footed lunge on Leo Messi. | timestamp=5478.98 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription was sent off for a two-footed lunge on Leo Messi."
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:red_card:5478.98:candidate:transcript-window",
+        "content": "transcript_01336=Now it's Marcello. | transcript_01337=Eight and a half minutes of normal time remaining here | transcript_01338=at the Santiago Bernabas, so far so good. | transcript_01339=For football club Barcelona, it's Real Madrid 1, Barca 2. | transcript_01340=What a game."
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5478.98:candidate:before",
+        "timestamp": 5473.98,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5478.98:candidate:at_event",
+        "timestamp": 5478.98,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:red_card:5478.98:candidate:after",
+        "timestamp": 5488.98,
+        "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:5485.48",
+        "content": "event_type=near_miss | title=Near Miss | description=It's another good save by Kailo Navas. | timestamp=5485.48 | entities={\"resolution_status\": \"likely\"} | evidence=transcription It's another good save by Kailo Navas."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:5485.48:transcript-window",
+        "content": "transcript_01338=at the Santiago Bernabas, so far so good. | transcript_01339=For football club Barcelona, it's Real Madrid 1, Barca 2. | transcript_01340=What a game. | transcript_01341=What a game. | transcript_01342=Best classical for a long, long time."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5485.48:before",
+        "timestamp": 5480.48,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5485.48:at_event",
+        "timestamp": 5485.48,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5485.48:after",
+        "timestamp": 5490.48,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:5530.5:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5530.5:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=What a performance from Ivan Rakitic and what a goal. | timestamp=5530.5 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription What a performance from Ivan Rakitic and what a goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:5530.5:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5530.5:candidate:transcript-window",
+        "content": "transcript_01351=Corner taken short. | transcript_01352=It's picked up by Kovacic, though, for Real Madrid. | transcript_01353=Well, put straight out of play. | transcript_01354=There was too much pressure on him. | transcript_01355=Three Barca players around him."
+    },
+    {
+        "event_id": "El classico 2017:goal:5559.67:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5559.67:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=It's Jeroppi Kei who wins the header at the far post. | timestamp=5559.67 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription It's Jeroppi Kei who wins the header at the far post."
+    },
+    {
+        "event_id": "El classico 2017:goal:5559.67:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5559.67:candidate:transcript-window",
+        "content": "transcript_01359=What a performance from Ivan Rakitic and what a goal. | transcript_01360=Which could turn out to be the winner. | transcript_01361=Seven minutes of normal time remaining. | transcript_01362=We've had 83 here at the Santiago Bernabas. | transcript_01363=Real Madrid are the kings of late goals,"
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:substitution:5671.42:candidate",
+        "content": "event_type=substitution_candidate | title=Substitution | description=and it's inspired the substitution from Zidane. | timestamp=5671.42 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it's inspired the substitution from Zidane."
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:substitution:5671.42:candidate:transcript-window",
+        "content": "transcript_01384=Now it's Hamas. | transcript_01385=Kovacal. | transcript_01386=Back into Hamas Rodriguez. | transcript_01387=He finds Tony Cross. | transcript_01388=Cross into Marcello."
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:5671.42:candidate:before",
+        "timestamp": 5656.42,
+        "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:5671.42:candidate:at_event",
+        "timestamp": 5671.42,
+        "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:substitution:5671.42:candidate:after",
+        "timestamp": 5686.42,
+        "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:5687.92:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5687.92:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=Real Madrid with another late goal. | timestamp=5687.92 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription Real Madrid with another late goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:5687.92:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5687.92:candidate:transcript-window",
+        "content": "transcript_01390=From Real Madrid and the ball in and it's converted by Hamas. | transcript_01391=Well, well, well. | transcript_01392=With their backs against the wall, | transcript_01393=Real Madrid have managed with ten men to get back into this game | transcript_01394=and it's inspired the substitution from Zidane."
+    },
+    {
+        "event_id": "El classico 2017:goal:5752.35:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5752.35:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=goes for goal himself the second time | timestamp=5752.35 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription goes for goal himself the second time"
+    },
+    {
+        "event_id": "El classico 2017:goal:5752.35:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5752.35:candidate:transcript-window",
+        "content": "transcript_01408=but also we're going to be on top here | transcript_01409=and take a big step towards potentially winning the Liga title. | transcript_01410=Real Madrid have managed to get back into the game | transcript_01411=with just ten men on the field of play. | transcript_01412=And here comes Asensio once more."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:near_miss:5754.85",
+        "content": "event_type=near_miss | title=Near Miss | description=and it's saved by Ter Stegen. | timestamp=5754.85 | entities={\"resolution_status\": \"likely\"} | evidence=transcription and it's saved by Ter Stegen."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:near_miss:5754.85:transcript-window",
+        "content": "transcript_01408=but also we're going to be on top here | transcript_01409=and take a big step towards potentially winning the Liga title. | transcript_01410=Real Madrid have managed to get back into the game | transcript_01411=with just ten men on the field of play. | transcript_01412=And here comes Asensio once more."
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5754.85:before",
+        "timestamp": 5749.85,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/before.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5754.85:at_event",
+        "timestamp": 5754.85,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/at_event.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "modality": "image",
+        "source_type": "keyframe",
+        "source_id": "El classico 2017:near_miss:5754.85:after",
+        "timestamp": 5759.85,
+        "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/after.jpg",
+        "content": null
+    },
+    {
+        "event_id": "El classico 2017:goal:5803.16:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5803.16:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=a win that would put them level with Real Madrid at the top of the table. | timestamp=5803.16 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription a win that would put them level with Real Madrid at the top of the table."
+    },
+    {
+        "event_id": "El classico 2017:goal:5803.16:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5803.16:candidate:transcript-window",
+        "content": "transcript_01421=but it has been such an entertaining game of football. | transcript_01422=Best classical for quite some time. | transcript_01423=It's totally lived up to its billing. | transcript_01424=There's the biggest game on the planet. | transcript_01425=There have been chances at both ends for both sides."
+    },
+    {
+        "event_id": "El classico 2017:goal:5899.51:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:5899.51:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and it's a goal kick for Football Club Barcelona. | timestamp=5899.51 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it's a goal kick for Football Club Barcelona."
+    },
+    {
+        "event_id": "El classico 2017:goal:5899.51:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:5899.51:candidate:transcript-window",
+        "content": "transcript_01447=Certainly on paper, at least, slightly easier. | transcript_01448=They've got Osasuna at home next week, | transcript_01449=then it's away against Espanyol, at home to Villarreal, | transcript_01450=away at Las Palmas, and then ending the season | transcript_01451=with a home game against Eibar."
+    },
+    {
+        "event_id": "El classico 2017:goal:6005.265:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:6005.265:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and it looks like this goal by Hamas. | timestamp=6005.265 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it looks like this goal by Hamas."
+    },
+    {
+        "event_id": "El classico 2017:goal:6005.265:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:6005.265:candidate:transcript-window",
+        "content": "transcript_01474=Pastor, I'm sure, would have been hoping | transcript_01475=for at least three or four. | transcript_01476=Jordi Alba tried to square it for Suarez. | transcript_01477=He's been robbed by Luca Modric and here's Hamas. | transcript_01478=He cuts inside, I'm going to go."
+    },
+    {
+        "event_id": "El classico 2017:goal:6080.92:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:6080.92:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=They've scored a last-minute goal. | timestamp=6080.92 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription They've scored a last-minute goal."
+    },
+    {
+        "event_id": "El classico 2017:goal:6080.92:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:6080.92:candidate:transcript-window",
+        "content": "transcript_01495=Could this be their final attack of the game? | transcript_01496=It's Sergio Roberto who's bringing it forward. | transcript_01497=Now it's André Gomez. | transcript_01498=It's got Jordi Alba outside him. | transcript_01499=Here is Jordi Alba."
+    },
+    {
+        "event_id": "El classico 2017:goal:6090.42:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:6090.42:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and it's Leo Messi with his 500th Barca goal, | timestamp=6090.42 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and it's Leo Messi with his 500th Barca goal, transcription his 23rd goal in El Clasico."
+    },
+    {
+        "event_id": "El classico 2017:goal:6090.42:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:6090.42:candidate:transcript-window",
+        "content": "transcript_01499=Here is Jordi Alba. | transcript_01500=Leo Messi! | transcript_01501=He's done it! | transcript_01502=Leo Messi with what could be the last kick of the game. | transcript_01503=Buries it into the back of the net."
+    },
+    {
+        "event_id": "El classico 2017:goal:6136.23:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:6136.23:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=And it's a goal that has given Football Club Barcelona victory | timestamp=6136.23 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription And it's a goal that has given Football Club Barcelona victory"
+    },
+    {
+        "event_id": "El classico 2017:goal:6136.23:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:6136.23:candidate:transcript-window",
+        "content": "transcript_01513=who makes it Real Madrid 2, Barca 3, | transcript_01514=and is surely handed all three points now | transcript_01515=to Football Club Barcelona. | transcript_01516=It was Sergio Roberto who burst forward. | transcript_01517=He found André Gomez who did well to hold up the play."
+    },
+    {
+        "event_id": "El classico 2017:goal:6146.9349999999995:candidate",
+        "modality": "text",
+        "source_type": "event",
+        "source_id": "El classico 2017:goal:6146.9349999999995:candidate",
+        "content": "event_type=goal_candidate | title=Goal | description=and this goal from Leo Messi has handed Barcelona all three points. | timestamp=6146.9349999999995 | entities={\"resolution_status\": \"candidate\"} | evidence=transcription and this goal from Leo Messi has handed Barcelona all three points."
+    },
+    {
+        "event_id": "El classico 2017:goal:6146.9349999999995:candidate",
+        "modality": "text",
+        "source_type": "transcript_window",
+        "source_id": "El classico 2017:goal:6146.9349999999995:candidate:transcript-window",
+        "content": "transcript_01517=He found André Gomez who did well to hold up the play. | transcript_01518=His pass to Jordi Alba was perfect. | transcript_01519=He squared it for Leo Messi, | transcript_01520=who just had to tuck it beyond Kailor Navas | transcript_01521=and into the back of the net."
+    }
+]
