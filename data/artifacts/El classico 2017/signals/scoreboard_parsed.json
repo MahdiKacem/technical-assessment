@@ -1,0 +1,86 @@
+[
+    {
+        "timestamp": 1953.5,
+        "raw_text": "RMA BAR 0  0 27.50",
+        "score_candidates": [
+            {
+                "home": 0,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1953.75,
+        "raw_text": "RMA BAR 0 0 27.51",
+        "score_candidates": [
+            {
+                "home": 0,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1954.0,
+        "raw_text": "RMA BAR 0 0 27.51",
+        "score_candidates": [
+            {
+                "home": 0,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1954.25,
+        "raw_text": "BAR RMA 0 0 27.51",
+        "score_candidates": [
+            {
+                "home": 0,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1954.5,
+        "raw_text": "RMA BAR 0 27.51",
+        "score_candidates": [],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1954.75,
+        "raw_text": "RMA BAR 0 27.52",
+        "score_candidates": [],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1955.0,
+        "raw_text": "T 0 RMA BAR 27.52",
+        "score_candidates": [],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1955.25,
+        "raw_text": "RMA BAR 27.52 1 0",
+        "score_candidates": [
+            {
+                "home": 1,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    },
+    {
+        "timestamp": 1955.5,
+        "raw_text": "RMA BAR 27.52 1 0",
+        "score_candidates": [
+            {
+                "home": 1,
+                "away": 0
+            }
+        ],
+        "clock_candidates": []
+    }
+]

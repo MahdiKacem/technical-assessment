@@ -79,6 +79,48 @@ def initialize_database(db_path: str) -> None:
             REFERENCES matches(match_id)
             ON DELETE CASCADE
     );
+    CREATE TABLE IF NOT EXISTS scoreboard_observations (
+        observation_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        timestamp REAL NOT NULL,
+        raw_text TEXT,
+        home_score INTEGER,
+        away_score INTEGER,
+        match_time TEXT,
+        confidence REAL,
+        bbox_json TEXT,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS audio_features (
+        feature_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        start_time REAL NOT NULL,
+        end_time REAL NOT NULL,
+        center_time REAL NOT NULL,
+        rms REAL NOT NULL,
+        zero_crossing_rate REAL NOT NULL,
+        spectral_centroid REAL NOT NULL,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS audio_peaks (
+        peak_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        timestamp REAL NOT NULL,
+        rms REAL NOT NULL,
+        z_score REAL NOT NULL,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
+    ON scoreboard_observations(match_id, timestamp);
 
     CREATE INDEX IF NOT EXISTS idx_transcriptions_match
         ON transcriptions(match_id);
@@ -97,6 +139,12 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_keyframes_timestamp
         ON keyframes(timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_audio_features_match_time
+        ON audio_features(match_id, start_time);
+
+    CREATE INDEX IF NOT EXISTS idx_audio_peaks_match_time
+        ON audio_peaks(match_id, timestamp);
     """
 
     with get_connection(db_path) as connection:
@@ -252,6 +300,179 @@ def insert_transcriptions(
     )
 
 
+def insert_audio_features(
+    connection,
+    match_id: str,
+    features: list[dict],
+) -> None:
+    rows = [
+        (
+            f"{match_id}:feature:{index:05d}",
+            match_id,
+            feature["start_time"],
+            feature["end_time"],
+            feature["center_time"],
+            feature["rms"],
+            feature["zero_crossing_rate"],
+            feature["spectral_centroid"],
+        )
+        for index, feature in enumerate(features, start=1)
+    ]
+
+    connection.executemany(
+        """
+        INSERT INTO audio_features (
+            feature_id,
+            match_id,
+            start_time,
+            end_time,
+            center_time,
+            rms,
+            zero_crossing_rate,
+            spectral_centroid
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(feature_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            start_time = excluded.start_time,
+            end_time = excluded.end_time,
+            center_time = excluded.center_time,
+            rms = excluded.rms,
+            zero_crossing_rate = excluded.zero_crossing_rate,
+            spectral_centroid = excluded.spectral_centroid
+        """,
+        rows,
+    )
+
+
+def insert_audio_peaks(
+    connection,
+    match_id: str,
+    peaks: list[dict],
+) -> None:
+    rows = [
+        (
+            peak["peak_id"],
+            match_id,
+            peak["timestamp"],
+            peak["rms"],
+            peak["z_score"],
+        )
+        for peak in peaks
+    ]
+
+    connection.executemany(
+        """
+        INSERT INTO audio_peaks (
+            peak_id,
+            match_id,
+            timestamp,
+            rms,
+            z_score
+        )
+        VALUES (?, ?, ?, ?, ?)
+        ON CONFLICT(peak_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            timestamp = excluded.timestamp,
+            rms = excluded.rms,
+            z_score = excluded.z_score
+        """,
+        rows,
+    )
+
+
+def insert_scoreboard_observations(
+    connection,
+    match_id: str,
+    observations: list[dict],
+) -> None:
+    import json
+
+    raw_by_timestamp = {}
+
+    if observations and "raw_text" in observations[0]:
+        parsed_observations = observations
+    else:
+        from pipeline.analysis.scoreboard_parser import parse_scoreboard
+
+        parsed_observations = parse_scoreboard(observations)
+
+    for observation in observations:
+        if "timestamp" not in observation:
+            continue
+        raw_by_timestamp.setdefault(observation["timestamp"], []).append(observation)
+
+    rows = []
+    for index, parsed in enumerate(parsed_observations, start=1):
+        timestamp = parsed["timestamp"]
+
+        score_candidates = parsed.get("score_candidates") or []
+        clock_candidates = parsed.get("clock_candidates") or []
+        score = score_candidates[0] if score_candidates else None
+
+        source_observations = raw_by_timestamp.get(timestamp, [])
+        confidences = [
+            float(item["confidence"])
+            for item in source_observations
+            if item.get("confidence") is not None
+        ]
+        confidence = (
+            sum(confidences) / len(confidences)
+            if confidences
+            else parsed.get("confidence")
+        )
+
+        bbox_values = [
+            item["bbox"]
+            for item in source_observations
+            if item.get("bbox")
+        ]
+
+        rows.append(
+            (
+                f"{match_id}:{timestamp}:{index}",
+                match_id,
+                timestamp,
+                parsed.get("raw_text"),
+                score.get("home") if score else None,
+                score.get("away") if score else None,
+                clock_candidates[0] if clock_candidates else None,
+                confidence,
+                json.dumps(bbox_values, ensure_ascii=False),
+            )
+        )
+
+    connection.executemany(
+        """
+        INSERT INTO scoreboard_observations (
+            observation_id,
+            match_id,
+            timestamp,
+            raw_text,
+            home_score,
+            away_score,
+            match_time,
+            confidence,
+            bbox_json
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(observation_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            timestamp = excluded.timestamp,
+            raw_text = excluded.raw_text,
+            home_score = excluded.home_score,
+            away_score = excluded.away_score,
+            match_time = excluded.match_time,
+            confidence = excluded.confidence,
+            bbox_json = excluded.bbox_json
+        """,
+        rows,
+    )
+
+
 def persist_ingestion(
     db_path: str,
     match_id: str,
@@ -284,3 +505,27 @@ def persist_transcription(
             match_id,
             segments,
         )
+
+
+def persist_scoreboard(
+    db_path: str,
+    match_id: str,
+    observations: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_scoreboard_observations(
+            connection,
+            match_id,
+            observations,
+        )
+
+
+def persist_audio(
+    db_path: str,
+    match_id: str,
+    features: list[dict],
+    peaks: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_audio_features(connection, match_id, features)
+        insert_audio_peaks(connection, match_id, peaks)

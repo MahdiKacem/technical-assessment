@@ -1,4 +1,11 @@
-from pipeline.database import (get_connection,initialize_database,insert_match,)
+from pipeline.database import (
+    get_connection,
+    initialize_database,
+    insert_match,
+    insert_scoreboard_observations,
+    insert_audio_features,
+    insert_audio_peaks,
+)
 
 
 def test_insert_match_reads_nested_video_metadata(tmp_path):
@@ -35,3 +42,113 @@ def test_insert_match_reads_nested_video_metadata(tmp_path):
     assert row["width"] == 1280
     assert row["height"] == 720
     assert row["video_codec"] == "h264"
+
+
+def test_insert_scoreboard_observations_persists_parsed_scores(tmp_path):
+    db_path = tmp_path / "match.db"
+    initialize_database(str(db_path))
+
+    observations = [
+        {
+            "timestamp": 1955.25,
+            "text": "27.52",
+            "confidence": 0.98,
+            "bbox": [[106, 42], [184, 42], [184, 72], [106, 72]],
+        },
+        {
+            "timestamp": 1955.25,
+            "text": "RMA",
+            "confidence": 0.99,
+            "bbox": [[197, 43], [247, 43], [247, 63], [197, 63]],
+        },
+        {
+            "timestamp": 1955.25,
+            "text": "1 0",
+            "confidence": 0.74,
+            "bbox": [[196, 43], [249, 43], [249, 67], [196, 67]],
+        },
+        {
+            "timestamp": 1955.25,
+            "text": "BAR",
+            "confidence": 0.95,
+            "bbox": [[339, 43], [387, 43], [387, 63], [339, 63]],
+        },
+    ]
+
+    with get_connection(str(db_path)) as connection:
+        insert_match(
+            connection,
+            "El classico 2017",
+            "data/input/Barcelona vs Real Madrid (2017).mp4",
+            {"duration_seconds": 6197.730975},
+        )
+        insert_scoreboard_observations(
+            connection,
+            "El classico 2017",
+            observations,
+        )
+        row = connection.execute(
+            """
+            SELECT timestamp, raw_text, home_score, away_score,
+                   match_time, confidence, bbox_json
+            FROM scoreboard_observations
+            WHERE match_id = ?
+            """,
+            ("El classico 2017",),
+        ).fetchone()
+
+    assert row["timestamp"] == 1955.25
+    assert row["home_score"] == 1
+    assert row["away_score"] == 0
+    assert "1 0" in row["raw_text"]
+    assert row["match_time"] is None
+    assert row["confidence"] == 0.915
+    assert len(__import__("json").loads(row["bbox_json"])) == 4
+
+
+def test_insert_audio_features_and_peaks(tmp_path):
+    db_path = tmp_path / "match.db"
+    initialize_database(str(db_path))
+
+    features = [
+        {
+            "start_time": 0.0,
+            "end_time": 2.0,
+            "center_time": 1.0,
+            "rms": 0.12,
+            "zero_crossing_rate": 0.08,
+            "spectral_centroid": 1400.0,
+        }
+    ]
+    peaks = [
+        {
+            "peak_id": "audio_peak_00001",
+            "timestamp": 372.0,
+            "rms": 0.109,
+            "z_score": 2.52,
+        }
+    ]
+
+    with get_connection(str(db_path)) as connection:
+        insert_match(
+            connection,
+            "El classico 2017",
+            "data/input/Barcelona vs Real Madrid (2017).mp4",
+            {"duration_seconds": 6197.730975},
+        )
+        insert_audio_features(connection, "El classico 2017", features)
+        insert_audio_peaks(connection, "El classico 2017", peaks)
+
+        feature = connection.execute(
+            "SELECT * FROM audio_features WHERE match_id = ?",
+            ("El classico 2017",),
+        ).fetchone()
+        peak = connection.execute(
+            "SELECT * FROM audio_peaks WHERE match_id = ?",
+            ("El classico 2017",),
+        ).fetchone()
+
+    assert feature["center_time"] == 1.0
+    assert feature["rms"] == 0.12
+    assert peak["peak_id"] == "audio_peak_00001"
+    assert peak["timestamp"] == 372.0
