@@ -104,3 +104,68 @@ def test_search_supports_time_and_status_filters(tmp_path):
 
     assert len(results) == 1
     assert results[0]["event_type"] == "red_card"
+
+
+def test_semantic_search_reranks_filtered_candidates(tmp_path):
+    db_path, _ = prepare_search_database(tmp_path)
+
+    with get_connection(str(db_path)) as connection:
+        connection.execute(
+            """
+            INSERT INTO multimodal_embeddings (
+                embedding_id, match_id, event_id, source_type, source_id,
+                timestamp, modality, model_name, model_version,
+                content_hash, vector_json, dimensions
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                "goal-vector",
+                "test-match",
+                "test-match:goal:20",
+                "event",
+                "test-match:goal:20",
+                20.0,
+                "text",
+                "test-multimodal",
+                "v1",
+                "goal-hash",
+                "[1.0,0.0]",
+                2,
+            ),
+        )
+        connection.execute(
+            """
+            INSERT INTO multimodal_embeddings (
+                embedding_id, match_id, event_id, source_type, source_id,
+                timestamp, modality, model_name, model_version,
+                content_hash, vector_json, dimensions
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                "red-vector",
+                "test-match",
+                "test-match:red-card:40",
+                "event",
+                "test-match:red-card:40",
+                40.0,
+                "text",
+                "test-multimodal",
+                "v1",
+                "red-hash",
+                "[0.0,1.0]",
+                2,
+            ),
+        )
+        results = search_events(
+            connection,
+            "test-match",
+            query="goal",
+            query_vector=[1.0, 0.0],
+            statuses=["confirmed"],
+            limit=5,
+        )
+
+    assert results[0]["event_id"] == "test-match:goal:20"
+    assert results[0]["semantic_score"] > results[1]["semantic_score"]

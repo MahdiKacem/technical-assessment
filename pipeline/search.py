@@ -2,6 +2,17 @@ import json
 import re
 
 
+def cosine_similarity(left: list[float], right: list[float]) -> float:
+    if len(left) != len(right) or not left:
+        return 0.0
+    dot = sum(a * b for a, b in zip(left, right))
+    left_norm = sum(a * a for a in left) ** 0.5
+    right_norm = sum(b * b for b in right) ** 0.5
+    if left_norm == 0 or right_norm == 0:
+        return 0.0
+    return dot / (left_norm * right_norm)
+
+
 def _fts_available(connection) -> bool:
     try:
         row = connection.execute(
@@ -173,6 +184,10 @@ def search_events(
     connection,
     match_id: str,
     query: str | None = None,
+    query_vector: list[float] | None = None,
+    semantic_weight: float = 0.7,
+    confidence_weight: float = 0.2,
+    timestamp_weight: float = 0.1,
     event_types: list[str] | None = None,
     statuses: list[str] | None = None,
     start_time: float | None = None,
@@ -226,12 +241,11 @@ def search_events(
             fts_ids = None
 
     if fts_ids is not None:
-        if not fts_ids:
-            return []
-        conditions.append(
-            "d.event_id IN (" + ",".join("?" for _ in fts_ids) + ")"
-        )
-        parameters.extend(fts_ids)
+        if fts_ids and query_vector is None:
+            conditions.append(
+                "d.event_id IN (" + ",".join("?" for _ in fts_ids) + ")"
+            )
+            parameters.extend(fts_ids)
 
     if query and query.strip() and fts_ids is None:
         words = [word for word in re.findall(r"[A-Za-z0-9]+", query.lower())]
@@ -256,7 +270,61 @@ def search_events(
     ).fetchall()
 
     results = []
-    for row in rows[:limit]:
+    candidates = list(rows)
+
+    semantic_scores = {}
+    if query_vector:
+        embedding_rows = connection.execute(
+            """
+            SELECT event_id, vector_json
+            FROM multimodal_embeddings
+            WHERE match_id = ?
+              AND event_id IS NOT NULL
+            """,
+            (match_id,),
+        ).fetchall()
+        for embedding in embedding_rows:
+            if embedding["event_id"] not in {
+                row["event_id"] for row in candidates
+            }:
+                continue
+            try:
+                vector = json.loads(embedding["vector_json"] or "[]")
+            except json.JSONDecodeError:
+                continue
+            similarity = cosine_similarity(query_vector, vector)
+            current = semantic_scores.get(embedding["event_id"], -1.0)
+            semantic_scores[embedding["event_id"]] = max(
+                current,
+                similarity,
+            )
+
+    ranked = []
+    for row in candidates:
+        semantic_score = semantic_scores.get(row["event_id"])
+        if semantic_score is None:
+            semantic_score = 0.0
+
+        confidence_score = max(0.0, min(1.0, row["confidence"]))
+        status_bonus = 1.0 if row["status"] in {"confirmed", "likely"} else 0.5
+        hybrid_score = (
+            semantic_weight * semantic_score
+            + confidence_weight * confidence_score
+            + timestamp_weight * status_bonus
+        )
+        ranked.append((row, hybrid_score, semantic_score))
+
+    ranked.sort(
+        key=lambda result: (
+            result[1],
+            result[0]["confidence"],
+            -result[0]["timestamp"],
+            result[0]["event_id"],
+        ),
+        reverse=True,
+    )
+
+    for row, hybrid_score, semantic_score in ranked[:limit]:
         item = {
             "event_id": row["event_id"],
             "match_id": row["match_id"],
@@ -267,6 +335,8 @@ def search_events(
             "description": row["description"],
             "confidence": row["confidence"],
             "entities": json.loads(row["entities_json"] or "{}"),
+            "semantic_score": round(semantic_score, 6) if query_vector else None,
+            "hybrid_score": round(hybrid_score, 6),
         }
 
         if include_context:
