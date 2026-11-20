@@ -119,6 +119,19 @@ def initialize_database(db_path: str) -> None:
             ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS card_events (
+        card_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        timestamp REAL NOT NULL,
+        card_type TEXT NOT NULL,
+        team TEXT,
+        player_name TEXT,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE,
+        CHECK (card_type IN ('red', 'yellow'))
+    );
+
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
     ON scoreboard_observations(match_id, timestamp);
 
@@ -145,6 +158,9 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_audio_peaks_match_time
         ON audio_peaks(match_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_card_events_match_time
+        ON card_events(match_id, timestamp);
     """
 
     with get_connection(db_path) as connection:
@@ -518,6 +534,74 @@ def persist_scoreboard(
             match_id,
             observations,
         )
+
+
+def insert_card_events(
+    connection,
+    match_id: str,
+    parsed_observations: list[dict],
+) -> None:
+    seen = set()
+    rows = []
+
+    for observation in parsed_observations:
+        timestamp = observation["timestamp"]
+        for card in observation.get("card_candidates") or []:
+            key = (
+                card["type"],
+                card.get("team"),
+                card.get("player"),
+            )
+            if key in seen:
+                continue
+
+            seen.add(key)
+            card_id = (
+                f"{match_id}:card:"
+                f"{card['type']}:{card.get('team') or 'unknown'}:"
+                f"{card.get('player') or 'unknown'}"
+            )
+            rows.append(
+                (
+                    card_id,
+                    match_id,
+                    timestamp,
+                    card["type"],
+                    card.get("team"),
+                    card.get("player"),
+                )
+            )
+
+    connection.executemany(
+        """
+        INSERT INTO card_events (
+            card_id,
+            match_id,
+            timestamp,
+            card_type,
+            team,
+            player_name
+        )
+        VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(card_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            timestamp = excluded.timestamp,
+            card_type = excluded.card_type,
+            team = excluded.team,
+            player_name = excluded.player_name
+        """,
+        rows,
+    )
+
+
+def persist_card_events(
+    db_path: str,
+    match_id: str,
+    parsed_observations: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_card_events(connection, match_id, parsed_observations)
 
 
 def persist_audio(

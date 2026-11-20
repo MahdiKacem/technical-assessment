@@ -5,6 +5,7 @@ from pipeline.database import (
     insert_scoreboard_observations,
     insert_audio_features,
     insert_audio_peaks,
+    insert_card_events,
 )
 
 
@@ -152,3 +153,54 @@ def test_insert_audio_features_and_peaks(tmp_path):
     assert feature["rms"] == 0.12
     assert peak["peak_id"] == "audio_peak_00001"
     assert peak["timestamp"] == 372.0
+
+
+def test_insert_card_events_deduplicates_red_card(tmp_path):
+    db_path = tmp_path / "match.db"
+    initialize_database(str(db_path))
+
+    parsed_observations = [
+        {
+            "timestamp": 5187.25,
+            "card_candidates": [
+                {"type": "red", "team": "RMA", "player": "SERGIO RAMOS"}
+            ],
+        },
+        {
+            "timestamp": 5187.5,
+            "card_candidates": [
+                {"type": "red", "team": "RMA", "player": "SERGIO RAMOS"}
+            ],
+        },
+    ]
+
+    with get_connection(str(db_path)) as connection:
+        insert_match(
+            connection,
+            "El classico 2017",
+            "data/input/Barcelona vs Real Madrid (2017).mp4",
+            {"duration_seconds": 6197.730975},
+        )
+        insert_card_events(
+            connection,
+            "El classico 2017",
+            parsed_observations,
+        )
+        row = connection.execute(
+            """
+            SELECT timestamp, card_type, team, player_name
+            FROM card_events
+            WHERE match_id = ?
+            """,
+            ("El classico 2017",),
+        ).fetchone()
+        count = connection.execute(
+            "SELECT COUNT(*) FROM card_events WHERE match_id = ?",
+            ("El classico 2017",),
+        ).fetchone()[0]
+
+    assert count == 1
+    assert row["timestamp"] == 5187.25
+    assert row["card_type"] == "red"
+    assert row["team"] == "RMA"
+    assert row["player_name"] == "SERGIO RAMOS"

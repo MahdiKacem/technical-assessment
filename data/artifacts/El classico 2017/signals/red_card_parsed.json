@@ -1,0 +1,122 @@
+[
+    {
+        "timestamp": 5185.5,
+        "raw_text": "RMA BAR 2 1 77.11",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5185.75,
+        "raw_text": "RMA BAR 1 77.11 2",
+        "score_candidates": [
+            {
+                "home": 1,
+                "away": 2
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5186.0,
+        "raw_text": "RMA BAR 2 77.11 1 SERFNc 4 TarJeiaOm",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5186.25,
+        "raw_text": "RMA BAR 2 1 77.12 Sergio RAMOU 4 JarjeiaRoja",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5186.5,
+        "raw_text": "RMA BAR 2 1 77.12 SeRgio RAMOS 4 JarJeTaRoja",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5186.75,
+        "raw_text": "RMA BAR 2 77.12 1 SeRgio RAMOS 4 JarJeTaRoja",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5187.0,
+        "raw_text": "RMA BAR 1 2 77.12 SeRgio RAMOS 4 JarjeTaRoja",
+        "score_candidates": [
+            {
+                "home": 1,
+                "away": 2
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": []
+    },
+    {
+        "timestamp": 5187.25,
+        "raw_text": "RMA BAR 1 77.13 2 SeRgio RAMOS 4 arjeia Roja",
+        "score_candidates": [
+            {
+                "home": 1,
+                "away": 2
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": [
+            {
+                "type": "red",
+                "team": "RMA",
+                "player": "SERGIO RAMOS"
+            }
+        ]
+    },
+    {
+        "timestamp": 5187.5,
+        "raw_text": "RMA BAR 2 77.13 1 SERgio RAMOS 4 Jarjeia Roja",
+        "score_candidates": [
+            {
+                "home": 2,
+                "away": 1
+            }
+        ],
+        "clock_candidates": [],
+        "card_candidates": [
+            {
+                "type": "red",
+                "team": "RMA",
+                "player": "SERGIO RAMOS"
+            }
+        ]
+    }
+]
