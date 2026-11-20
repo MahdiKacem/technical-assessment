@@ -8,7 +8,9 @@ from pipeline.database import (
     insert_card_events,
     insert_event_keyframes,
     insert_events,
+    insert_rosters,
 )
+from pipeline.ingestion.roster import parse_roster_csv
 
 
 def test_insert_match_reads_nested_video_metadata(tmp_path):
@@ -255,3 +257,50 @@ def test_insert_event_keyframes(tmp_path):
     assert row["keyframe_id"] == "keyframe_0001"
     assert row["timestamp"] == 90.0
     assert row["role"] == "before"
+
+
+def test_insert_team_rosters(tmp_path):
+    db_path = tmp_path / "match.db"
+    initialize_database(str(db_path))
+
+    rosters = [
+        parse_roster_csv(
+            "data/input/El_Clasico_2017_Lineups.xlsx - Barcelona.csv"
+        ),
+        parse_roster_csv(
+            "data/input/El_Clasico_2017_Lineups.xlsx - Real Madrid.csv"
+        ),
+    ]
+
+    with get_connection(str(db_path)) as connection:
+        insert_match(
+            connection,
+            "El classico 2017",
+            "data/input/Barcelona vs Real Madrid (2017).mp4",
+            {"duration_seconds": 6197.730975},
+        )
+        insert_rosters(connection, "El classico 2017", rosters)
+
+        teams = connection.execute(
+            """
+            SELECT name, side
+            FROM teams
+            WHERE match_id = ?
+            ORDER BY side
+            """,
+            ("El classico 2017",),
+        ).fetchall()
+        player_count = connection.execute(
+            """
+            SELECT COUNT(*)
+            FROM players
+            WHERE match_id = ?
+            """,
+            ("El classico 2017",),
+        ).fetchone()[0]
+
+    assert [(team["name"], team["side"]) for team in teams] == [
+        ("Barcelona", "away"),
+        ("Real Madrid", "home"),
+    ]
+    assert player_count == 30

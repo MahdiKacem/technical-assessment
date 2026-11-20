@@ -8,3 +8,7 @@ keyframes/
 match.db
 scoreboard_ocr.json
 event_keyframes
+equalizer_*
+late_goal_ocr.json
+messi_equalizer_goal_ocr.json
+rakitic_goal_ocr.json

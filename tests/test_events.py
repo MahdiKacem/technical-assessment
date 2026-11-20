@@ -270,6 +270,50 @@ def test_fusion_uses_scoreboard_goal_without_audio():
     assert fused[0]["entities"]["resolution_status"] == "confirmed"
 
 
+def test_fusion_near_miss_is_context_for_scoreboard_goal():
+    events = [
+        {
+            "event_id": "goal",
+            "event_type": "goal",
+            "timestamp": 1955.25,
+            "confidence": 0.95,
+            "entities": {},
+            "evidence": [
+                {
+                    "evidence_id": "scoreboard-evidence",
+                    "source_type": "scoreboard",
+                    "source_id": "observation-1",
+                }
+            ],
+        },
+        {
+            "event_id": "near-miss",
+            "event_type": "near_miss",
+            "timestamp": 1949.56,
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "evidence_id": "miss-evidence",
+                    "source_type": "transcription",
+                    "source_id": "segment-1",
+                }
+            ],
+        },
+    ]
+
+    fused = cluster_events(events)
+    goal = next(event for event in fused if event["event_type"] == "goal")
+    miss_evidence = [
+        evidence
+        for evidence in goal["evidence"]
+        if evidence["evidence_id"] == "miss-evidence"
+    ]
+
+    assert goal["confidence"] >= 0.95
+    assert goal["entities"]["resolution_status"] == "confirmed"
+    assert miss_evidence[0]["details"]["relation"] == "context"
+
+
 def test_fusion_near_miss_does_not_disprove_card():
     events = [
         {

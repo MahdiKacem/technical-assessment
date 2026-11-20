@@ -539,7 +539,7 @@
         "timestamp": 1955.25,
         "title": "Goal - home",
         "description": "Score changed from 0-0 to 1-0.",
-        "confidence": 0.53,
+        "confidence": 1.0,
         "entities": {
             "team": "home",
             "previous_score": {
@@ -550,8 +550,8 @@
                 "home": 1,
                 "away": 0
             },
-            "resolution_status": "rejected",
-            "fusion_reason": "Scoreboard evidence contradicted by near-miss or incompatible context."
+            "resolution_status": "confirmed",
+            "fusion_reason": "Scoreboard evidence with compatible support."
         },
         "evidence": [
             {
@@ -600,7 +600,7 @@
                     "start_time": 1947.56,
                     "end_time": 1951.56,
                     "matched_type": "near_miss",
-                    "relation": "contradict"
+                    "relation": "context"
                 }
             },
             {
@@ -645,7 +645,7 @@
                     "start_time": 1966.56,
                     "end_time": 1975.86,
                     "matched_type": "near_miss",
-                    "relation": "contradict"
+                    "relation": "context"
                 }
             },
             {

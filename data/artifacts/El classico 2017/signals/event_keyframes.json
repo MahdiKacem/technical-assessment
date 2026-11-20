@@ -225,6 +225,35 @@
         ]
     },
     {
+        "event_id": "El classico 2017:goal:1955.25",
+        "event_type": "goal",
+        "timestamp": 1955.25,
+        "confidence": 1.0,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:goal:1955.25:before",
+                "timestamp": 1945.25,
+                "image_path": "event_keyframes/El_classico_2017_goal_1955.25/before.jpg",
+                "role": "before",
+                "target_timestamp": 1945.25
+            },
+            {
+                "keyframe_id": "El classico 2017:goal:1955.25:at_event",
+                "timestamp": 1955.25,
+                "image_path": "event_keyframes/El_classico_2017_goal_1955.25/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1955.25
+            },
+            {
+                "keyframe_id": "El classico 2017:goal:1955.25:after",
+                "timestamp": 1965.25,
+                "image_path": "event_keyframes/El_classico_2017_goal_1955.25/after.jpg",
+                "role": "after",
+                "target_timestamp": 1965.25
+            }
+        ]
+    },
+    {
         "event_id": "El classico 2017:near_miss:1998.36",
         "event_type": "near_miss",
         "timestamp": 1998.36,

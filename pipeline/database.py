@@ -132,6 +132,34 @@ def initialize_database(db_path: str) -> None:
         CHECK (card_type IN ('red', 'yellow'))
     );
 
+    CREATE TABLE IF NOT EXISTS teams (
+        team_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        name TEXT NOT NULL,
+        short_name TEXT,
+        side TEXT,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE,
+        CHECK (side IS NULL OR side IN ('home', 'away'))
+    );
+
+    CREATE TABLE IF NOT EXISTS players (
+        player_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        team_id TEXT,
+        shirt_number INTEGER,
+        name TEXT NOT NULL,
+        position TEXT,
+        role TEXT,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE,
+        FOREIGN KEY (team_id)
+            REFERENCES teams(team_id)
+            ON DELETE SET NULL
+    );
+
     CREATE TABLE IF NOT EXISTS events (
         event_id TEXT PRIMARY KEY,
         match_id TEXT NOT NULL,
@@ -174,6 +202,23 @@ def initialize_database(db_path: str) -> None:
             REFERENCES events(event_id)
             ON DELETE CASCADE,
         CHECK (role IN ('before', 'at_event', 'after'))
+    );
+
+    CREATE TABLE IF NOT EXISTS event_search_documents (
+        event_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        event_type TEXT NOT NULL,
+        status TEXT NOT NULL,
+        timestamp REAL NOT NULL,
+        title TEXT,
+        description TEXT,
+        entities_json TEXT,
+        evidence_text TEXT,
+        searchable_text TEXT NOT NULL,
+        embedding_json TEXT,
+        FOREIGN KEY (event_id)
+            REFERENCES events(event_id)
+            ON DELETE CASCADE
     );
 
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
@@ -220,10 +265,41 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_event_keyframes_event
         ON event_keyframes(event_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_teams_match
+        ON teams(match_id);
+
+    CREATE INDEX IF NOT EXISTS idx_players_match
+        ON players(match_id);
+
+    CREATE INDEX IF NOT EXISTS idx_players_team
+        ON players(team_id);
+
+    CREATE INDEX IF NOT EXISTS idx_event_search_match
+        ON event_search_documents(match_id, event_type, status);
     """
 
     with get_connection(db_path) as connection:
         connection.executescript(schema)
+        try:
+            connection.execute(
+                """
+                CREATE VIRTUAL TABLE IF NOT EXISTS event_search_fts
+                USING fts5(
+                    event_id UNINDEXED,
+                    match_id UNINDEXED,
+                    event_type UNINDEXED,
+                    status UNINDEXED,
+                    title,
+                    description,
+                    entities,
+                    evidence_text,
+                    tokenize='unicode61'
+                )
+                """
+            )
+        except sqlite3.OperationalError:
+            pass
 
     print(f"Database initialized: {db_path}")
 
@@ -854,3 +930,117 @@ def persist_event_keyframes(
 ) -> None:
     with get_connection(db_path) as connection:
         insert_event_keyframes(connection, match_id, manifest)
+
+
+def insert_rosters(
+    connection,
+    match_id: str,
+    rosters: list[dict],
+) -> None:
+    team_rows = []
+    player_rows = []
+
+    for roster in rosters:
+        teams = roster.get("teams") or []
+        roster_team_name = (roster.get("team_name") or "").lower()
+        matching_team_id = None
+
+        for team in teams:
+            team_name = team["name"]
+            team_id = f"{match_id}:team:{team_name}"
+            team_rows.append(
+                (
+                    team_id,
+                    match_id,
+                    team_name,
+                    team_name,
+                    team.get("side"),
+                )
+            )
+
+            normalized_team_name = team_name.lower()
+            if (
+                roster_team_name
+                and (
+                    normalized_team_name == roster_team_name
+                    or roster_team_name in normalized_team_name
+                    or normalized_team_name in roster_team_name
+                )
+            ):
+                matching_team_id = team_id
+
+        if matching_team_id is None and teams:
+            matching_team_id = f"{match_id}:team:{teams[0]['name']}"
+
+        for player in roster.get("players") or []:
+            shirt_number = player.get("shirt_number")
+            player_name = player["name"]
+            player_id = (
+                f"{match_id}:player:"
+                f"{teams[0]['name'] if teams else 'unknown'}:"
+                f"{shirt_number if shirt_number is not None else player_name}"
+            )
+            player_rows.append(
+                (
+                    player_id,
+                    match_id,
+                    matching_team_id,
+                    shirt_number,
+                    player_name,
+                    player.get("position"),
+                    player.get("role"),
+                )
+            )
+
+    connection.executemany(
+        """
+        INSERT INTO teams (
+            team_id,
+            match_id,
+            name,
+            short_name,
+            side
+        )
+        VALUES (?, ?, ?, ?, ?)
+        ON CONFLICT(team_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            name = excluded.name,
+            short_name = excluded.short_name,
+            side = excluded.side
+        """,
+        team_rows,
+    )
+
+    connection.executemany(
+        """
+        INSERT INTO players (
+            player_id,
+            match_id,
+            team_id,
+            shirt_number,
+            name,
+            position,
+            role
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(player_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            team_id = excluded.team_id,
+            shirt_number = excluded.shirt_number,
+            name = excluded.name,
+            position = excluded.position,
+            role = excluded.role
+        """,
+        player_rows,
+    )
+
+
+def persist_rosters(
+    db_path: str,
+    match_id: str,
+    rosters: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_rosters(connection, match_id, rosters)

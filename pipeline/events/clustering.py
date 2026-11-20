@@ -153,11 +153,9 @@ def fuse_events(events: list[dict]) -> list[dict]:
                     used_candidate_ids.add(candidate["event_id"])
                 elif candidate_type == "near_miss":
                     evidence.extend(
-                        _with_evidence_relation(item, "contradict")
+                        _with_evidence_relation(item, "context")
                         for item in candidate.get("evidence") or []
                     )
-                    contradicted = True
-                    confidence -= 0.30
                     used_candidate_ids.add(candidate["event_id"])
                 continue
 
