@@ -12,8 +12,38 @@ def extract_scoreboard_events(connection, match_id: str) -> list[dict]:
 
     events = []
     previous = None
+    stable_states = []
 
-    for row in rows:
+    for index, row in enumerate(rows):
+        home = row["home_score"]
+        away = row["away_score"]
+        if home is None or away is None:
+            continue
+        if row["confidence"] is not None and row["confidence"] < 0.75:
+            continue
+
+        nearby = [
+            candidate
+            for candidate in rows[max(0, index - 1):index + 2]
+            if candidate["home_score"] is not None
+            and candidate["away_score"] is not None
+            and (candidate["home_score"], candidate["away_score"])
+            == (home, away)
+        ]
+        if len(nearby) >= 1:
+            stable_states.append(row)
+
+    deduplicated_states = []
+    previous_stable_score = None
+    for row in stable_states:
+        score = (row["home_score"], row["away_score"])
+        if score == previous_stable_score:
+            continue
+        deduplicated_states.append(row)
+        previous_stable_score = score
+    stable_states = deduplicated_states
+
+    for row in stable_states:
         home = row["home_score"]
         away = row["away_score"]
         if home is None or away is None:

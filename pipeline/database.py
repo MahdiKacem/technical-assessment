@@ -548,7 +548,50 @@ def insert_scoreboard_observations(
     else:
         from pipeline.analysis.scoreboard_parser import parse_scoreboard
 
-        parsed_observations = parse_scoreboard(observations)
+        teams = connection.execute(
+            """
+            SELECT name, side
+            FROM teams
+            WHERE match_id = ?
+            """,
+            (match_id,),
+        ).fetchall()
+        players = connection.execute(
+            """
+            SELECT shirt_number, name, position, role
+            FROM players
+            WHERE match_id = ?
+            """,
+            (match_id,),
+        ).fetchall()
+
+        left_team = next(
+            (team["name"] for team in teams if team["side"] == "home"),
+            None,
+        )
+        right_team = next(
+            (team["name"] for team in teams if team["side"] == "away"),
+            None,
+        )
+        team_labels = {
+            "left": left_team,
+            "right": right_team,
+        }
+        player_values = [
+            {
+                "shirt_number": player["shirt_number"],
+                "name": player["name"],
+                "position": player["position"],
+                "role": player["role"],
+            }
+            for player in players
+        ]
+
+        parsed_observations = parse_scoreboard(
+            observations,
+            team_labels=team_labels,
+            players=player_values,
+        )
 
     for observation in observations:
         if "timestamp" not in observation:

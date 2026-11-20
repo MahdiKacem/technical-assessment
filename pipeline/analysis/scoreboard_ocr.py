@@ -6,6 +6,20 @@ import json
 DEFAULT_SCOREBOARD_CROP = (0.055, 0.035, 0.33, 0.12)
 
 
+def score_layout_config(
+    crop: tuple[float, float, float, float] = DEFAULT_SCOREBOARD_CROP,
+    languages: list[str] | None = None,
+    left_team_label: str | None = None,
+    right_team_label: str | None = None,
+) -> dict:
+    return {
+        "crop": crop,
+        "languages": languages or ["en"],
+        "left_team_label": left_team_label,
+        "right_team_label": right_team_label,
+    }
+
+
 def crop_scoreboard(frame, crop: tuple[float, float, float, float]):
     height, width = frame.shape[:2]
     left_ratio, top_ratio, width_ratio, height_ratio = crop
@@ -29,11 +43,15 @@ def extract_scoreboard_observations(
     crop: tuple[float, float, float, float] = DEFAULT_SCOREBOARD_CROP,
     start_time: float = 0.0,
     end_time: float | None = None,
+    config: dict | None = None,
 ) -> list[dict]:
     if sample_interval <= 0:
         raise ValueError("sample_interval must be positive.")
     if start_time < 0:
         raise ValueError("start_time must be non-negative.")
+    if config:
+        crop = config.get("crop", crop)
+        languages = config.get("languages", languages)
 
     if languages is None:
         languages = ["en"]

@@ -406,3 +406,53 @@ def test_keyframe_manifest_skips_low_confidence_candidates():
     manifest = select_keyframes_for_events(events, keyframes)
 
     assert [entry["event_id"] for entry in manifest] == ["confirmed"]
+
+
+def test_scoreboard_extraction_uses_only_stable_score_states(tmp_path):
+    db_path, connection = prepare_database(tmp_path)
+
+    from pipeline.database import insert_scoreboard_observations
+
+    insert_scoreboard_observations(
+        connection,
+        "test-match",
+        [
+            {
+                "timestamp": 10.0,
+                "text": "0 0",
+                "raw_text": "0 0",
+                "score_candidates": [{"home": 0, "away": 0}],
+                "confidence": 0.99,
+                "bbox": [],
+            },
+            {
+                "timestamp": 10.5,
+                "text": "1 2",
+                "raw_text": "1 2",
+                "score_candidates": [{"home": 1, "away": 2}],
+                "confidence": 0.30,
+                "bbox": [],
+            },
+            {
+                "timestamp": 11.0,
+                "text": "1 0",
+                "raw_text": "1 0",
+                "score_candidates": [{"home": 1, "away": 0}],
+                "confidence": 0.98,
+                "bbox": [],
+            },
+            {
+                "timestamp": 11.5,
+                "text": "1 0",
+                "raw_text": "1 0",
+                "score_candidates": [{"home": 1, "away": 0}],
+                "confidence": 0.98,
+                "bbox": [],
+            },
+        ],
+    )
+
+    events = extract_scoreboard_events(connection, "test-match")
+    connection.close()
+
+    assert [event["timestamp"] for event in events] == [11.0]
