@@ -1,0 +1,2850 @@
+[
+    {
+        "event_id": "El classico 2017:goal:46.9:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 46.9,
+        "title": "Goal",
+        "description": "We've put them level on points with Los Blancos at the top of the Liga table.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:46.9:transcription:transcript_00008",
+                "source_type": "transcription",
+                "source_id": "transcript_00008",
+                "source_timestamp": 46.9,
+                "source_value": "We've put them level on points with Los Blancos at the top of the Liga table.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 44.32,
+                    "end_time": 49.48,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:89.18:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 89.18,
+        "title": "Goal",
+        "description": "For Real Madrid, it's Caleb Navas in goal,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:89.18:transcription:transcript_00019",
+                "source_type": "transcription",
+                "source_id": "transcript_00019",
+                "source_timestamp": 89.18,
+                "source_value": "For Real Madrid, it's Caleb Navas in goal,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 88.18,
+                    "end_time": 90.18,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:173.7:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 173.7,
+        "title": "Goal",
+        "description": "That's six games without a goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:173.7:transcription:transcript_00039",
+                "source_type": "transcription",
+                "source_id": "transcript_00039",
+                "source_timestamp": 173.7,
+                "source_value": "That's six games without a goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 172.92,
+                    "end_time": 174.48,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:282.56:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 282.56,
+        "title": "Goal",
+        "description": "We put them level on points with Real Madrid,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:282.56:transcription:transcript_00061",
+                "source_type": "transcription",
+                "source_id": "transcript_00061",
+                "source_timestamp": 282.56,
+                "source_value": "We put them level on points with Real Madrid,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 281.48,
+                    "end_time": 283.64,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:477.52:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 477.52,
+        "title": "Goal",
+        "description": "This time the full-back wins the header and finds Cristiano Ronaldo,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:477.52:transcription:transcript_00108",
+                "source_type": "transcription",
+                "source_id": "transcript_00108",
+                "source_timestamp": 477.52,
+                "source_value": "This time the full-back wins the header and finds Cristiano Ronaldo,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 476.18,
+                    "end_time": 478.86,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:501.02:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 501.02,
+        "title": "Goal",
+        "description": "and is out for a goal kick.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:501.02:transcription:transcript_00116",
+                "source_type": "transcription",
+                "source_id": "transcript_00116",
+                "source_timestamp": 501.02,
+                "source_value": "and is out for a goal kick.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 500.02,
+                    "end_time": 502.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "event_type": "near_miss",
+        "timestamp": 901.93,
+        "title": "Near Miss",
+        "description": "always dragging it wide of Kailor Navas' right-hand post.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:901.93:transcription:transcript_00201",
+                "source_type": "transcription",
+                "source_id": "transcript_00201",
+                "source_timestamp": 901.93,
+                "source_value": "always dragging it wide of Kailor Navas' right-hand post.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 899.93,
+                    "end_time": 903.93,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "event_type": "near_miss",
+        "timestamp": 928.62,
+        "title": "Near Miss",
+        "description": "which whistled wide of Kailor Navas' right-hand post.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:928.62:transcription:transcript_00207",
+                "source_type": "transcription",
+                "source_id": "transcript_00207",
+                "source_timestamp": 928.62,
+                "source_value": "which whistled wide of Kailor Navas' right-hand post.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 926.32,
+                    "end_time": 930.92,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:938.44:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 938.44,
+        "title": "Goal",
+        "description": "10 minutes on the clock, nil-nil the score here",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:938.44:transcription:transcript_00208",
+                "source_type": "transcription",
+                "source_id": "transcript_00208",
+                "source_timestamp": 938.44,
+                "source_value": "10 minutes on the clock, nil-nil the score here",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 937.28,
+                    "end_time": 939.6,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 982.27,
+        "title": "Yellow Card",
+        "description": "And that should be a yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:982.27:transcription:transcript_00218",
+                "source_type": "transcription",
+                "source_id": "transcript_00218",
+                "source_timestamp": 982.27,
+                "source_value": "And that should be a yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 981.27,
+                    "end_time": 983.27,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1012.31,
+        "title": "Yellow Card",
+        "description": "and picking up the first yellow card of the game deservedly so.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:1012.31:transcription:transcript_00226",
+                "source_type": "transcription",
+                "source_id": "transcript_00226",
+                "source_timestamp": 1012.31,
+                "source_value": "and picking up the first yellow card of the game deservedly so.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1010.19,
+                    "end_time": 1014.43,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:1036.1799999999998:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 1036.1799999999998,
+        "title": "Goal",
+        "description": "His cross is a poor one, and it's out for a goal kick.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:1036.1799999999998:transcription:transcript_00232",
+                "source_type": "transcription",
+                "source_id": "transcript_00232",
+                "source_timestamp": 1036.1799999999998,
+                "source_value": "His cross is a poor one, and it's out for a goal kick.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1034.56,
+                    "end_time": 1037.8,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1055.0,
+        "title": "Yellow Card",
+        "description": "should have picked up a second yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:1055.0:transcription:transcript_00236",
+                "source_type": "transcription",
+                "source_id": "transcript_00236",
+                "source_timestamp": 1055.0,
+                "source_value": "should have picked up a second yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1053.44,
+                    "end_time": 1056.56,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:yellow_card:1062.74:transcription:transcript_00238",
+                "source_type": "transcription",
+                "source_id": "transcript_00238",
+                "source_timestamp": 1062.74,
+                "source_value": "before Arturo Vidal was shown a second yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1060.28,
+                    "end_time": 1065.2,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 1058.4,
+        "title": "Red Card",
+        "description": "And actually, should potentially have been sent off",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:red_card:1058.4:transcription:transcript_00237",
+                "source_type": "transcription",
+                "source_id": "transcript_00237",
+                "source_timestamp": 1058.4,
+                "source_value": "And actually, should potentially have been sent off",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1056.56,
+                    "end_time": 1060.24,
+                    "matched_type": "red_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1072.415,
+        "title": "Yellow Card",
+        "description": "Well, he's already got a yellow card in this game.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:1072.415:transcription:transcript_00240",
+                "source_type": "transcription",
+                "source_id": "transcript_00240",
+                "source_timestamp": 1072.415,
+                "source_value": "Well, he's already got a yellow card in this game.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1070.28,
+                    "end_time": 1074.55,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:yellow_card:1079.6:transcription:transcript_00241",
+                "source_type": "transcription",
+                "source_id": "transcript_00241",
+                "source_timestamp": 1079.6,
+                "source_value": "Have to play almost 80 minutes, knowing that he can't be booked again.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1074.55,
+                    "end_time": 1084.65,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:1090.1100000000001:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 1090.1100000000001,
+        "title": "Goal",
+        "description": "plays a long ball over the top, looking for Gareth Bale, who wins a header.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:1090.1100000000001:transcription:transcript_00243",
+                "source_type": "transcription",
+                "source_id": "transcript_00243",
+                "source_timestamp": 1090.1100000000001,
+                "source_value": "plays a long ball over the top, looking for Gareth Bale, who wins a header.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1087.89,
+                    "end_time": 1092.33,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "event_type": "near_miss",
+        "timestamp": 1684.01,
+        "title": "Near Miss",
+        "description": "He's annoyed with himself as he blasts it over the crossbar",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:1684.01:transcription:transcript_00375",
+                "source_type": "transcription",
+                "source_id": "transcript_00375",
+                "source_timestamp": 1684.01,
+                "source_value": "He's annoyed with himself as he blasts it over the crossbar",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1682.51,
+                    "end_time": 1685.51,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:1788.92:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 1788.92,
+        "title": "Goal",
+        "description": "Into Karin Benzema now, a long way from goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:1788.92:transcription:transcript_00392",
+                "source_type": "transcription",
+                "source_id": "transcript_00392",
+                "source_timestamp": 1788.92,
+                "source_value": "Into Karin Benzema now, a long way from goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1787.42,
+                    "end_time": 1790.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:1955.25",
+        "event_type": "goal",
+        "timestamp": 1955.25,
+        "title": "Goal - home",
+        "description": "Score changed from 0-0 to 1-0.",
+        "confidence": 0.53,
+        "entities": {
+            "team": "home",
+            "previous_score": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "home": 1,
+                "away": 0
+            },
+            "resolution_status": "rejected",
+            "fusion_reason": "Scoreboard evidence contradicted by near-miss or incompatible context."
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:1955.25:scoreboard:El classico 2017:1955.25:8",
+                "source_type": "scoreboard",
+                "source_id": "El classico 2017:1955.25:8",
+                "source_timestamp": 1955.25,
+                "source_value": "RMA BAR 27.52 1 0",
+                "confidence": 0.7755808140047722,
+                "weight": 1.0,
+                "details": {
+                    "previous_score": [
+                        0,
+                        0
+                    ],
+                    "score": [
+                        1,
+                        0
+                    ],
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:crowd_reaction:1949.0:audio:audio_peak_00012",
+                "source_type": "audio",
+                "source_id": "audio_peak_00012",
+                "source_timestamp": 1949.0,
+                "source_value": "{\"rms\": 0.09985119849443436, \"z_score\": 2.5553522021412918}",
+                "confidence": 0.7044281761713034,
+                "weight": 0.6,
+                "details": {
+                    "rms": 0.09985119849443436,
+                    "z_score": 2.5553522021412918,
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:near_miss:1949.56:transcription:transcript_00432",
+                "source_type": "transcription",
+                "source_id": "transcript_00432",
+                "source_timestamp": 1949.56,
+                "source_value": "It's off the post, surely now, and it's Casamiro.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1947.56,
+                    "end_time": 1951.56,
+                    "matched_type": "near_miss",
+                    "relation": "contradict"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:1953.06:transcription:transcript_00433",
+                "source_type": "transcription",
+                "source_id": "transcript_00433",
+                "source_timestamp": 1953.06,
+                "source_value": "Well, it's the first goal of the game,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1951.56,
+                    "end_time": 1954.56,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:1960.06:transcription:transcript_00435",
+                "source_type": "transcription",
+                "source_id": "transcript_00435",
+                "source_timestamp": 1960.06,
+                "source_value": "It's his third goal of this La Liga campaign.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1958.56,
+                    "end_time": 1961.56,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:near_miss:1971.21:transcription:transcript_00437",
+                "source_type": "transcription",
+                "source_id": "transcript_00437",
+                "source_timestamp": 1971.21,
+                "source_value": "The shot rebounded off the post and fell very kindly.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1966.56,
+                    "end_time": 1975.86,
+                    "matched_type": "near_miss",
+                    "relation": "contradict"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:1980.86:transcription:transcript_00439",
+                "source_type": "transcription",
+                "source_id": "transcript_00439",
+                "source_timestamp": 1980.86,
+                "source_value": "who slotted the ball home for the first goal of the game",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1978.86,
+                    "end_time": 1982.86,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "event_type": "near_miss",
+        "timestamp": 1998.36,
+        "title": "Near Miss",
+        "description": "It comes back off the post,",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:1998.36:transcription:transcript_00444",
+                "source_type": "transcription",
+                "source_id": "transcript_00444",
+                "source_timestamp": 1998.36,
+                "source_value": "It comes back off the post,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 1996.86,
+                    "end_time": 1999.86,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2024.52:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2024.52,
+        "title": "Goal",
+        "description": "So Casamiro with his third goal in La Liga of the campaign,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2024.52:transcription:transcript_00449",
+                "source_type": "transcription",
+                "source_id": "transcript_00449",
+                "source_timestamp": 2024.52,
+                "source_value": "So Casamiro with his third goal in La Liga of the campaign,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2022.02,
+                    "end_time": 2027.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2210.42:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2210.42,
+        "title": "Goal",
+        "description": "and there's the first goal of the game",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2210.42:transcription:transcript_00491",
+                "source_type": "transcription",
+                "source_id": "transcript_00491",
+                "source_timestamp": 2210.42,
+                "source_value": "and there's the first goal of the game",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2209.42,
+                    "end_time": 2211.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:2218.42:transcription:transcript_00494",
+                "source_type": "transcription",
+                "source_id": "transcript_00494",
+                "source_timestamp": 2218.42,
+                "source_value": "with an absolutely stunning team goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2216.42,
+                    "end_time": 2220.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2264.4:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2264.4,
+        "title": "Goal",
+        "description": "What a goal that was from football club Barcelona.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2264.4:transcription:transcript_00512",
+                "source_type": "transcription",
+                "source_id": "transcript_00512",
+                "source_timestamp": 2264.4,
+                "source_value": "What a goal that was from football club Barcelona.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2262.9,
+                    "end_time": 2265.9,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "event_type": "near_miss",
+        "timestamp": 2288.13,
+        "title": "Near Miss",
+        "description": "Gets right underneath it and blasts it over the crossbar",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:2288.13:transcription:transcript_00518",
+                "source_type": "transcription",
+                "source_id": "transcript_00518",
+                "source_timestamp": 2288.13,
+                "source_value": "Gets right underneath it and blasts it over the crossbar",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2286.63,
+                    "end_time": 2289.63,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2341.24:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2341.24,
+        "title": "Goal",
+        "description": "What a fine goal that is.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2341.24:transcription:transcript_00535",
+                "source_type": "transcription",
+                "source_id": "transcript_00535",
+                "source_timestamp": 2341.24,
+                "source_value": "What a fine goal that is.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2339.24,
+                    "end_time": 2343.24,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2401.17:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2401.17,
+        "title": "Goal",
+        "description": "who strikes one goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2401.17:transcription:transcript_00550",
+                "source_type": "transcription",
+                "source_id": "transcript_00550",
+                "source_timestamp": 2401.17,
+                "source_value": "who strikes one goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2400.67,
+                    "end_time": 2401.67,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:2408.67:transcription:transcript_00554",
+                "source_type": "transcription",
+                "source_id": "transcript_00554",
+                "source_timestamp": 2408.67,
+                "source_value": "and it'll be a goal kick.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2407.67,
+                    "end_time": 2409.67,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2501.58:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2501.58,
+        "title": "Goal",
+        "description": "As we see Leo Messi's goal,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2501.58:transcription:transcript_00576",
+                "source_type": "transcription",
+                "source_id": "transcript_00576",
+                "source_timestamp": 2501.58,
+                "source_value": "As we see Leo Messi's goal,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2500.58,
+                    "end_time": 2502.58,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2515.58:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2515.58,
+        "title": "Goal",
+        "description": "Wonderful team goal from Football Club Barcelona.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2515.58:transcription:transcript_00580",
+                "source_type": "transcription",
+                "source_id": "transcript_00580",
+                "source_timestamp": 2515.58,
+                "source_value": "Wonderful team goal from Football Club Barcelona.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2513.58,
+                    "end_time": 2517.58,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2527.13:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2527.13,
+        "title": "Goal",
+        "description": "just at the point where Madrid had gone a goal up,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2527.13:transcription:transcript_00582",
+                "source_type": "transcription",
+                "source_id": "transcript_00582",
+                "source_timestamp": 2527.13,
+                "source_value": "just at the point where Madrid had gone a goal up,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2525.63,
+                    "end_time": 2528.63,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2570.96,
+        "title": "Yellow Card",
+        "description": "and it could be a yellow card for the Frenchman.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:2570.96:transcription:transcript_00595",
+                "source_type": "transcription",
+                "source_id": "transcript_00595",
+                "source_timestamp": 2570.96,
+                "source_value": "and it could be a yellow card for the Frenchman.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2569.96,
+                    "end_time": 2571.96,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 2581.375,
+        "title": "Substitution",
+        "description": "to replace Gareth Bale.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:substitution:2581.375:transcription:transcript_00598",
+                "source_type": "transcription",
+                "source_id": "transcript_00598",
+                "source_timestamp": 2581.375,
+                "source_value": "to replace Gareth Bale.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2579.37,
+                    "end_time": 2583.38,
+                    "matched_type": "substitution",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2596.28,
+        "title": "Yellow Card",
+        "description": "and it looks like it'll be a yellow card for Um Titi",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:2596.28:transcription:transcript_00602",
+                "source_type": "transcription",
+                "source_id": "transcript_00602",
+                "source_timestamp": 2596.28,
+                "source_value": "and it looks like it'll be a yellow card for Um Titi",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2594.78,
+                    "end_time": 2597.78,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "event_type": "near_miss",
+        "timestamp": 2688.2,
+        "title": "Near Miss",
+        "description": "Leo Messi's shot and it's just wide.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:2688.2:transcription:transcript_00619",
+                "source_type": "transcription",
+                "source_id": "transcript_00619",
+                "source_timestamp": 2688.2,
+                "source_value": "Leo Messi's shot and it's just wide.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2687.2,
+                    "end_time": 2689.2,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2690.7:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2690.7,
+        "title": "Goal",
+        "description": "Kailor Navas was scrambling across his goal line.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2690.7:transcription:transcript_00620",
+                "source_type": "transcription",
+                "source_id": "transcript_00620",
+                "source_timestamp": 2690.7,
+                "source_value": "Kailor Navas was scrambling across his goal line.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2689.2,
+                    "end_time": 2692.2,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2701.2:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2701.2,
+        "title": "Goal",
+        "description": "And handing Real Madrid a goal kick here.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2701.2:transcription:transcript_00624",
+                "source_type": "transcription",
+                "source_id": "transcript_00624",
+                "source_timestamp": 2701.2,
+                "source_value": "And handing Real Madrid a goal kick here.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2700.2,
+                    "end_time": 2702.2,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2780.14:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2780.14,
+        "title": "Goal",
+        "description": "That Barca goal without a doubt the highlight of the match so far.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2780.14:transcription:transcript_00640",
+                "source_type": "transcription",
+                "source_id": "transcript_00640",
+                "source_timestamp": 2780.14,
+                "source_value": "That Barca goal without a doubt the highlight of the match so far.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2778.14,
+                    "end_time": 2782.14,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:2813.36:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 2813.36,
+        "title": "Goal",
+        "description": "which is exactly what they did for that Leo Messi goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:2813.36:transcription:transcript_00649",
+                "source_type": "transcription",
+                "source_id": "transcript_00649",
+                "source_timestamp": 2813.36,
+                "source_value": "which is exactly what they did for that Leo Messi goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2811.86,
+                    "end_time": 2814.86,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "event_type": "near_miss",
+        "timestamp": 2844.76,
+        "title": "Near Miss",
+        "description": "This shot just wide.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:2844.76:transcription:transcript_00659",
+                "source_type": "transcription",
+                "source_id": "transcript_00659",
+                "source_timestamp": 2844.76,
+                "source_value": "This shot just wide.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2843.76,
+                    "end_time": 2845.76,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2939.865,
+        "title": "Yellow Card",
+        "description": "Now it's Casemiro on a yellow card, don't forget.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:2939.865:transcription:transcript_00670",
+                "source_type": "transcription",
+                "source_id": "transcript_00670",
+                "source_timestamp": 2939.865,
+                "source_value": "Now it's Casemiro on a yellow card, don't forget.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 2936.55,
+                    "end_time": 2943.18,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3008.09,
+        "title": "Yellow Card",
+        "description": "and should be a second yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:3008.09:transcription:transcript_00689",
+                "source_type": "transcription",
+                "source_id": "transcript_00689",
+                "source_timestamp": 3008.09,
+                "source_value": "and should be a second yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3007.09,
+                    "end_time": 3009.09,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3039.43,
+        "title": "Yellow Card",
+        "description": "that that should have been a second yellow card",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:3039.43:transcription:transcript_00697",
+                "source_type": "transcription",
+                "source_id": "transcript_00697",
+                "source_timestamp": 3039.43,
+                "source_value": "that that should have been a second yellow card",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3038.43,
+                    "end_time": 3040.43,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:yellow_card:3047.43:transcription:transcript_00700",
+                "source_type": "transcription",
+                "source_id": "transcript_00700",
+                "source_timestamp": 3047.43,
+                "source_value": "He's on the yellow card and he's going to have",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3046.43,
+                    "end_time": 3048.43,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3054.43:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3054.43,
+        "title": "Goal",
+        "description": "Umtiti underneath it, can't win the header though.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3054.43:transcription:transcript_00703",
+                "source_type": "transcription",
+                "source_id": "transcript_00703",
+                "source_timestamp": 3054.43,
+                "source_value": "Umtiti underneath it, can't win the header though.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3053.43,
+                    "end_time": 3055.43,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3135.1:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3135.1,
+        "title": "Goal",
+        "description": "It's almost an open goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3135.1:transcription:transcript_00731",
+                "source_type": "transcription",
+                "source_id": "transcript_00731",
+                "source_timestamp": 3135.1,
+                "source_value": "It's almost an open goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3133.6,
+                    "end_time": 3136.6,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3187.02:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3187.02,
+        "title": "Goal",
+        "description": "with his 22nd goal in this fixture.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3187.02:transcription:transcript_00745",
+                "source_type": "transcription",
+                "source_id": "transcript_00745",
+                "source_timestamp": 3187.02,
+                "source_value": "with his 22nd goal in this fixture.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3184.02,
+                    "end_time": 3190.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:3194.52:transcription:transcript_00747",
+                "source_type": "transcription",
+                "source_id": "transcript_00747",
+                "source_timestamp": 3194.52,
+                "source_value": "He's the highest-ever goal-scorer",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3192.02,
+                    "end_time": 3197.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3211.48:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3211.48,
+        "title": "Goal",
+        "description": "And not only that, it was a stunning goal as well,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3211.48:transcription:transcript_00750",
+                "source_type": "transcription",
+                "source_id": "transcript_00750",
+                "source_timestamp": 3211.48,
+                "source_value": "And not only that, it was a stunning goal as well,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3209.98,
+                    "end_time": 3212.98,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3235.74:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3235.74,
+        "title": "Goal",
+        "description": "They then found the first goal through Casamiro,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3235.74:transcription:transcript_00756",
+                "source_type": "transcription",
+                "source_id": "transcript_00756",
+                "source_timestamp": 3235.74,
+                "source_value": "They then found the first goal through Casamiro,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3234.24,
+                    "end_time": 3237.24,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3250.24,
+        "title": "Yellow Card",
+        "description": "Casamiro picked up a yellow card,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:3250.24:transcription:transcript_00760",
+                "source_type": "transcription",
+                "source_id": "transcript_00760",
+                "source_timestamp": 3250.24,
+                "source_value": "Casamiro picked up a yellow card,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3249.24,
+                    "end_time": 3251.24,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3360.36:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3360.36,
+        "title": "Goal",
+        "description": "As the ball came across, there's always a danger of scoring an own goal",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3360.36:transcription:transcript_00784",
+                "source_type": "transcription",
+                "source_id": "transcript_00784",
+                "source_timestamp": 3360.36,
+                "source_value": "As the ball came across, there's always a danger of scoring an own goal",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3358.86,
+                    "end_time": 3361.86,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "event_type": "near_miss",
+        "timestamp": 3430.96,
+        "title": "Near Miss",
+        "description": "And an excellent save by Marc-André Ter Stegen,",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:3430.96:transcription:transcript_00802",
+                "source_type": "transcription",
+                "source_id": "transcript_00802",
+                "source_timestamp": 3430.96,
+                "source_value": "And an excellent save by Marc-André Ter Stegen,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3429.46,
+                    "end_time": 3432.46,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3532.44,
+        "title": "Yellow Card",
+        "description": "Maybe the Frenchman lucky not to pick up a yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:3532.44:transcription:transcript_00829",
+                "source_type": "transcription",
+                "source_id": "transcript_00829",
+                "source_timestamp": 3532.44,
+                "source_value": "Maybe the Frenchman lucky not to pick up a yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3530.94,
+                    "end_time": 3533.94,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3650.395:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3650.395,
+        "title": "Goal",
+        "description": "It's a goal kick for Ter Stegen.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3650.395:transcription:transcript_00859",
+                "source_type": "transcription",
+                "source_id": "transcript_00859",
+                "source_timestamp": 3650.395,
+                "source_value": "It's a goal kick for Ter Stegen.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3645.89,
+                    "end_time": 3654.9,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3752.16:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3752.16,
+        "title": "Goal",
+        "description": "The header from Ben Zamaru.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3752.16:transcription:transcript_00890",
+                "source_type": "transcription",
+                "source_id": "transcript_00890",
+                "source_timestamp": 3752.16,
+                "source_value": "The header from Ben Zamaru.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3751.16,
+                    "end_time": 3753.16,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3933.64:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3933.64,
+        "title": "Goal",
+        "description": "Well, and truly, in goal-scoring range for Leo Messi here,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3933.64:transcription:transcript_00941",
+                "source_type": "transcription",
+                "source_id": "transcript_00941",
+                "source_timestamp": 3933.64,
+                "source_value": "Well, and truly, in goal-scoring range for Leo Messi here,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3931.14,
+                    "end_time": 3936.14,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "event_type": "near_miss",
+        "timestamp": 3944.14,
+        "title": "Near Miss",
+        "description": "and he does, and sends it over the crossbar.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:3944.14:transcription:transcript_00944",
+                "source_type": "transcription",
+                "source_id": "transcript_00944",
+                "source_timestamp": 3944.14,
+                "source_value": "and he does, and sends it over the crossbar.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3943.14,
+                    "end_time": 3945.14,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3952.14:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3952.14,
+        "title": "Goal",
+        "description": "Looking for his 31st goal of the season, 22nd or 23rd,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3952.14:transcription:transcript_00946",
+                "source_type": "transcription",
+                "source_id": "transcript_00946",
+                "source_timestamp": 3952.14,
+                "source_value": "Looking for his 31st goal of the season, 22nd or 23rd,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3949.14,
+                    "end_time": 3955.14,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:3995.02:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 3995.02,
+        "title": "Goal",
+        "description": "from Luis Suarez, that could have been another fantastic goal-scoring opportunity.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:3995.02:transcription:transcript_00954",
+                "source_type": "transcription",
+                "source_id": "transcript_00954",
+                "source_timestamp": 3995.02,
+                "source_value": "from Luis Suarez, that could have been another fantastic goal-scoring opportunity.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 3992.02,
+                    "end_time": 3998.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4053.69:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4053.69,
+        "title": "Goal",
+        "description": "looking for Gerard Piquet, who wins the header.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4053.69:transcription:transcript_00967",
+                "source_type": "transcription",
+                "source_id": "transcript_00967",
+                "source_timestamp": 4053.69,
+                "source_value": "looking for Gerard Piquet, who wins the header.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4052.69,
+                    "end_time": 4054.69,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4150.02:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4150.02,
+        "title": "Goal",
+        "description": "Wouldn't he love to score here again",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4150.02:transcription:transcript_00992",
+                "source_type": "transcription",
+                "source_id": "transcript_00992",
+                "source_timestamp": 4150.02,
+                "source_value": "Wouldn't he love to score here again",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4149.02,
+                    "end_time": 4151.02,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "event_type": "near_miss",
+        "timestamp": 4555.14,
+        "title": "Near Miss",
+        "description": "Finds Ronaldo! Oh, what a miss!",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:4555.14:transcription:transcript_01089",
+                "source_type": "transcription",
+                "source_id": "transcript_01089",
+                "source_timestamp": 4555.14,
+                "source_value": "Finds Ronaldo! Oh, what a miss!",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4554.14,
+                    "end_time": 4556.14,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:near_miss:4559.485000000001:transcription:transcript_01090",
+                "source_type": "transcription",
+                "source_id": "transcript_01090",
+                "source_timestamp": 4559.485000000001,
+                "source_value": "What a miss from Cristiano Ronaldo.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4556.14,
+                    "end_time": 4562.83,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4570.33:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4570.33,
+        "title": "Goal",
+        "description": "The goal was at his mercy here.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4570.33:transcription:transcript_01093",
+                "source_type": "transcription",
+                "source_id": "transcript_01093",
+                "source_timestamp": 4570.33,
+                "source_value": "The goal was at his mercy here.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4568.83,
+                    "end_time": 4571.83,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "event_type": "near_miss",
+        "timestamp": 4584.83,
+        "title": "Near Miss",
+        "description": "He was leaning right back and lifted it over the crossbar.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:4584.83:transcription:transcript_01099",
+                "source_type": "transcription",
+                "source_id": "transcript_01099",
+                "source_timestamp": 4584.83,
+                "source_value": "He was leaning right back and lifted it over the crossbar.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4583.83,
+                    "end_time": 4585.83,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "event_type": "near_miss",
+        "timestamp": 4608.33,
+        "title": "Near Miss",
+        "description": "Suarez, whose effort was very well saved",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:4608.33:transcription:transcript_01108",
+                "source_type": "transcription",
+                "source_id": "transcript_01108",
+                "source_timestamp": 4608.33,
+                "source_value": "Suarez, whose effort was very well saved",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4606.83,
+                    "end_time": 4609.83,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4636.5:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4636.5,
+        "title": "Goal",
+        "description": "Here's Rakitic, who wins the header.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4636.5:transcription:transcript_01120",
+                "source_type": "transcription",
+                "source_id": "transcript_01120",
+                "source_timestamp": 4636.5,
+                "source_value": "Here's Rakitic, who wins the header.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4635.5,
+                    "end_time": 4637.5,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 4698.735,
+        "title": "Substitution",
+        "description": "Substitution now for Real Madrid,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:substitution:4698.735:transcription:transcript_01139",
+                "source_type": "transcription",
+                "source_id": "transcript_01139",
+                "source_timestamp": 4698.735,
+                "source_value": "Substitution now for Real Madrid,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4696.61,
+                    "end_time": 4700.86,
+                    "matched_type": "substitution",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 4707.895,
+        "title": "Yellow Card",
+        "description": "Casamiro, who's on a yellow card, is making way.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:4707.895:transcription:transcript_01142",
+                "source_type": "transcription",
+                "source_id": "transcript_01142",
+                "source_timestamp": 4707.895,
+                "source_value": "Casamiro, who's on a yellow card, is making way.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4704.86,
+                    "end_time": 4710.93,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "event_type": "near_miss",
+        "timestamp": 4838.21,
+        "title": "Near Miss",
+        "description": "whose left-footed strike is very well saved",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:4838.21:transcription:transcript_01178",
+                "source_type": "transcription",
+                "source_id": "transcript_01178",
+                "source_timestamp": 4838.21,
+                "source_value": "whose left-footed strike is very well saved",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4836.71,
+                    "end_time": 4839.71,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4889.62:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4889.62,
+        "title": "Goal",
+        "description": "What a goal that is by Ivan Raketic.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4889.62:transcription:transcript_01195",
+                "source_type": "transcription",
+                "source_id": "transcript_01195",
+                "source_timestamp": 4889.62,
+                "source_value": "What a goal that is by Ivan Raketic.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4887.62,
+                    "end_time": 4891.62,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4902.62:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4902.62,
+        "title": "Goal",
+        "description": "It's his seventh Liga goal of the season,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4902.62:transcription:transcript_01199",
+                "source_type": "transcription",
+                "source_id": "transcript_01199",
+                "source_timestamp": 4902.62,
+                "source_value": "It's his seventh Liga goal of the season,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4900.62,
+                    "end_time": 4904.62,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4934.030000000001:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4934.030000000001,
+        "title": "Goal",
+        "description": "And it's a goal which momentarily",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4934.030000000001:transcription:transcript_01208",
+                "source_type": "transcription",
+                "source_id": "transcript_01208",
+                "source_timestamp": 4934.030000000001,
+                "source_value": "And it's a goal which momentarily",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4930.96,
+                    "end_time": 4937.1,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:4938.1:transcription:transcript_01209",
+                "source_type": "transcription",
+                "source_id": "transcript_01209",
+                "source_timestamp": 4938.1,
+                "source_value": "moves Barcelona level on points",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4937.1,
+                    "end_time": 4939.1,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4944.1:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4944.1,
+        "title": "Goal",
+        "description": "It could prove to be a huge, huge goal",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4944.1:transcription:transcript_01211",
+                "source_type": "transcription",
+                "source_id": "transcript_01211",
+                "source_timestamp": 4944.1,
+                "source_value": "It could prove to be a huge, huge goal",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4942.1,
+                    "end_time": 4946.1,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:4970.6:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 4970.6,
+        "title": "Goal",
+        "description": "and after Casamiro's goal strikes from Messi",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:4970.6:transcription:transcript_01220",
+                "source_type": "transcription",
+                "source_id": "transcript_01220",
+                "source_timestamp": 4970.6,
+                "source_value": "and after Casamiro's goal strikes from Messi",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 4969.1,
+                    "end_time": 4972.1,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5016.88:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5016.88,
+        "title": "Goal",
+        "description": "What a goal that was from Ivan Raketic.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5016.88:transcription:transcript_01230",
+                "source_type": "transcription",
+                "source_id": "transcript_01230",
+                "source_timestamp": 5016.88,
+                "source_value": "What a goal that was from Ivan Raketic.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5015.88,
+                    "end_time": 5017.88,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "event_type": "red_card",
+        "timestamp": 5187.25,
+        "title": "Red card - SERGIO RAMOS",
+        "description": "Red card - SERGIO RAMOS",
+        "confidence": 1.0,
+        "entities": {
+            "team": "RMA",
+            "player": "SERGIO RAMOS",
+            "card_type": "red",
+            "resolution_status": "confirmed",
+            "fusion_reason": "Scoreboard evidence with compatible support."
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:red_card:5187.25:card:El classico 2017:card:red:RMA:SERGIO RAMOS",
+                "source_type": "scoreboard",
+                "source_id": "El classico 2017:card:red:RMA:SERGIO RAMOS",
+                "source_timestamp": 5187.25,
+                "source_value": "red",
+                "confidence": 0.9,
+                "weight": 1.0,
+                "details": {
+                    "team": "RMA",
+                    "player": "SERGIO RAMOS",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:red_card:5172.41:transcription:transcript_01258",
+                "source_type": "transcription",
+                "source_id": "transcript_01258",
+                "source_timestamp": 5172.41,
+                "source_value": "It's a straight red card for Sergio Ramos",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5170.91,
+                    "end_time": 5173.91,
+                    "matched_type": "red_card",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:red_card:5189.25:transcription:transcript_01262",
+                "source_type": "transcription",
+                "source_id": "transcript_01262",
+                "source_timestamp": 5189.25,
+                "source_value": "Well, it's another red card for Sergio Ramos,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5187.75,
+                    "end_time": 5190.75,
+                    "matched_type": "red_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 5215.66,
+        "title": "Red Card",
+        "description": "Well, that's a red card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:red_card:5215.66:transcription:transcript_01270",
+                "source_type": "transcription",
+                "source_id": "transcript_01270",
+                "source_timestamp": 5215.66,
+                "source_value": "Well, that's a red card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5214.66,
+                    "end_time": 5216.66,
+                    "matched_type": "red_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 5393.68,
+        "title": "Yellow Card",
+        "description": "Well, there's no question that that's a yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:5393.68:transcription:transcript_01317",
+                "source_type": "transcription",
+                "source_id": "transcript_01317",
+                "source_timestamp": 5393.68,
+                "source_value": "Well, there's no question that that's a yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5392.18,
+                    "end_time": 5395.18,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 5405.4,
+        "title": "Yellow Card",
+        "description": "and it's quite clearly a yellow card.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:yellow_card:5405.4:transcription:transcript_01321",
+                "source_type": "transcription",
+                "source_id": "transcript_01321",
+                "source_timestamp": 5405.4,
+                "source_value": "and it's quite clearly a yellow card.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5403.18,
+                    "end_time": 5407.62,
+                    "matched_type": "yellow_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5414.9:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5414.9,
+        "title": "Goal",
+        "description": "It could have quite easily been the third goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5414.9:transcription:transcript_01324",
+                "source_type": "transcription",
+                "source_id": "transcript_01324",
+                "source_timestamp": 5414.9,
+                "source_value": "It could have quite easily been the third goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5412.62,
+                    "end_time": 5417.18,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 5478.98,
+        "title": "Red Card",
+        "description": "was sent off for a two-footed lunge on Leo Messi.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:red_card:5478.98:transcription:transcript_01345",
+                "source_type": "transcription",
+                "source_id": "transcript_01345",
+                "source_timestamp": 5478.98,
+                "source_value": "was sent off for a two-footed lunge on Leo Messi.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5477.48,
+                    "end_time": 5480.48,
+                    "matched_type": "red_card",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "event_type": "near_miss",
+        "timestamp": 5485.48,
+        "title": "Near Miss",
+        "description": "It's another good save by Kailo Navas.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:5485.48:transcription:transcript_01348",
+                "source_type": "transcription",
+                "source_id": "transcript_01348",
+                "source_timestamp": 5485.48,
+                "source_value": "It's another good save by Kailo Navas.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5484.48,
+                    "end_time": 5486.48,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5530.5:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5530.5,
+        "title": "Goal",
+        "description": "What a performance from Ivan Rakitic and what a goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5530.5:transcription:transcript_01359",
+                "source_type": "transcription",
+                "source_id": "transcript_01359",
+                "source_timestamp": 5530.5,
+                "source_value": "What a performance from Ivan Rakitic and what a goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5529.0,
+                    "end_time": 5532.0,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5559.67:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5559.67,
+        "title": "Goal",
+        "description": "It's Jeroppi Kei who wins the header at the far post.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5559.67:transcription:transcript_01366",
+                "source_type": "transcription",
+                "source_id": "transcript_01366",
+                "source_timestamp": 5559.67,
+                "source_value": "It's Jeroppi Kei who wins the header at the far post.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5557.67,
+                    "end_time": 5561.67,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 5671.42,
+        "title": "Substitution",
+        "description": "and it's inspired the substitution from Zidane.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:substitution:5671.42:transcription:transcript_01394",
+                "source_type": "transcription",
+                "source_id": "transcript_01394",
+                "source_timestamp": 5671.42,
+                "source_value": "and it's inspired the substitution from Zidane.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5669.42,
+                    "end_time": 5673.42,
+                    "matched_type": "substitution",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5687.92:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5687.92,
+        "title": "Goal",
+        "description": "Real Madrid with another late goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5687.92:transcription:transcript_01399",
+                "source_type": "transcription",
+                "source_id": "transcript_01399",
+                "source_timestamp": 5687.92,
+                "source_value": "Real Madrid with another late goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5686.42,
+                    "end_time": 5689.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5752.35:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5752.35,
+        "title": "Goal",
+        "description": "goes for goal himself the second time",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5752.35:transcription:transcript_01416",
+                "source_type": "transcription",
+                "source_id": "transcript_01416",
+                "source_timestamp": 5752.35,
+                "source_value": "goes for goal himself the second time",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5751.35,
+                    "end_time": 5753.35,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "event_type": "near_miss",
+        "timestamp": 5754.85,
+        "title": "Near Miss",
+        "description": "and it's saved by Ter Stegen.",
+        "confidence": 0.75,
+        "entities": {
+            "resolution_status": "likely"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:near_miss:5754.85:transcription:transcript_01417",
+                "source_type": "transcription",
+                "source_id": "transcript_01417",
+                "source_timestamp": 5754.85,
+                "source_value": "and it's saved by Ter Stegen.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5753.35,
+                    "end_time": 5756.35,
+                    "matched_type": "near_miss",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5803.16:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5803.16,
+        "title": "Goal",
+        "description": "a win that would put them level with Real Madrid at the top of the table.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5803.16:transcription:transcript_01428",
+                "source_type": "transcription",
+                "source_id": "transcript_01428",
+                "source_timestamp": 5803.16,
+                "source_value": "a win that would put them level with Real Madrid at the top of the table.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5801.66,
+                    "end_time": 5804.66,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:5899.51:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 5899.51,
+        "title": "Goal",
+        "description": "and it's a goal kick for Football Club Barcelona.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:5899.51:transcription:transcript_01458",
+                "source_type": "transcription",
+                "source_id": "transcript_01458",
+                "source_timestamp": 5899.51,
+                "source_value": "and it's a goal kick for Football Club Barcelona.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 5897.51,
+                    "end_time": 5901.51,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:6005.265:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 6005.265,
+        "title": "Goal",
+        "description": "and it looks like this goal by Hamas.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:6005.265:transcription:transcript_01485",
+                "source_type": "transcription",
+                "source_id": "transcript_01485",
+                "source_timestamp": 6005.265,
+                "source_value": "and it looks like this goal by Hamas.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6003.14,
+                    "end_time": 6007.39,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:6080.92:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 6080.92,
+        "title": "Goal",
+        "description": "They've scored a last-minute goal.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:6080.92:transcription:transcript_01507",
+                "source_type": "transcription",
+                "source_id": "transcript_01507",
+                "source_timestamp": 6080.92,
+                "source_value": "They've scored a last-minute goal.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6079.42,
+                    "end_time": 6082.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:6090.42:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 6090.42,
+        "title": "Goal",
+        "description": "and it's Leo Messi with his 500th Barca goal,",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:6090.42:transcription:transcript_01510",
+                "source_type": "transcription",
+                "source_id": "transcript_01510",
+                "source_timestamp": 6090.42,
+                "source_value": "and it's Leo Messi with his 500th Barca goal,",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6088.42,
+                    "end_time": 6092.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            },
+            {
+                "evidence_id": "El classico 2017:goal:6094.42:transcription:transcript_01511",
+                "source_type": "transcription",
+                "source_id": "transcript_01511",
+                "source_timestamp": 6094.42,
+                "source_value": "his 23rd goal in El Clasico.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6092.42,
+                    "end_time": 6096.42,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:6136.23:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 6136.23,
+        "title": "Goal",
+        "description": "And it's a goal that has given Football Club Barcelona victory",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:6136.23:transcription:transcript_01523",
+                "source_type": "transcription",
+                "source_id": "transcript_01523",
+                "source_timestamp": 6136.23,
+                "source_value": "And it's a goal that has given Football Club Barcelona victory",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6133.73,
+                    "end_time": 6138.73,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:goal:6146.9349999999995:candidate",
+        "event_type": "goal_candidate",
+        "timestamp": 6146.9349999999995,
+        "title": "Goal",
+        "description": "and this goal from Leo Messi has handed Barcelona all three points.",
+        "confidence": 0.65,
+        "entities": {
+            "resolution_status": "candidate"
+        },
+        "evidence": [
+            {
+                "evidence_id": "El classico 2017:goal:6146.9349999999995:transcription:transcript_01526",
+                "source_type": "transcription",
+                "source_id": "transcript_01526",
+                "source_timestamp": 6146.9349999999995,
+                "source_value": "and this goal from Leo Messi has handed Barcelona all three points.",
+                "confidence": 0.65,
+                "weight": 0.7,
+                "details": {
+                    "start_time": 6142.73,
+                    "end_time": 6151.14,
+                    "matched_type": "goal",
+                    "relation": "support"
+                }
+            }
+        ]
+    }
+]

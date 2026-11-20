@@ -132,6 +132,37 @@ def initialize_database(db_path: str) -> None:
         CHECK (card_type IN ('red', 'yellow'))
     );
 
+    CREATE TABLE IF NOT EXISTS events (
+        event_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        event_type TEXT NOT NULL,
+        timestamp REAL NOT NULL,
+        end_timestamp REAL,
+        title TEXT,
+        description TEXT,
+        confidence REAL NOT NULL,
+        entities_json TEXT,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS event_evidence (
+        evidence_id TEXT PRIMARY KEY,
+        event_id TEXT NOT NULL,
+        source_type TEXT NOT NULL,
+        source_id TEXT,
+        source_timestamp REAL,
+        source_value TEXT,
+        confidence REAL,
+        weight REAL NOT NULL DEFAULT 1.0,
+        details_json TEXT,
+        FOREIGN KEY (event_id)
+            REFERENCES events(event_id)
+            ON DELETE CASCADE
+    );
+
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
     ON scoreboard_observations(match_id, timestamp);
 
@@ -161,6 +192,18 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_card_events_match_time
         ON card_events(match_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_events_match_time
+        ON events(match_id, timestamp);
+
+    CREATE INDEX IF NOT EXISTS idx_events_match_type
+        ON events(match_id, event_type);
+
+    CREATE INDEX IF NOT EXISTS idx_event_evidence_event
+        ON event_evidence(event_id);
+
+    CREATE INDEX IF NOT EXISTS idx_event_evidence_source
+        ON event_evidence(source_type, source_id);
     """
 
     with get_connection(db_path) as connection:
@@ -613,3 +656,123 @@ def persist_audio(
     with get_connection(db_path) as connection:
         insert_audio_features(connection, match_id, features)
         insert_audio_peaks(connection, match_id, peaks)
+
+
+def insert_events(
+    connection,
+    match_id: str,
+    events: list[dict],
+) -> None:
+    connection.execute(
+        """
+        DELETE FROM event_evidence
+        WHERE event_id IN (
+            SELECT event_id FROM events WHERE match_id = ?
+        )
+        """,
+        (match_id,),
+    )
+    connection.execute(
+        "DELETE FROM events WHERE match_id = ?",
+        (match_id,),
+    )
+
+    event_rows = []
+    evidence_rows = []
+
+    for event in events:
+        entities = event.get("entities") or {}
+        event_rows.append(
+            (
+                event["event_id"],
+                match_id,
+                event["event_type"],
+                event["timestamp"],
+                event.get("end_timestamp"),
+                event.get("title"),
+                event.get("description"),
+                event.get("confidence", 0.0),
+                json.dumps(entities, ensure_ascii=False),
+            )
+        )
+
+        for evidence in event.get("evidence") or []:
+            details = evidence.get("details") or {}
+            evidence_rows.append(
+                (
+                    evidence["evidence_id"],
+                    event["event_id"],
+                    evidence["source_type"],
+                    evidence.get("source_id"),
+                    evidence.get("source_timestamp"),
+                    evidence.get("source_value"),
+                    evidence.get("confidence"),
+                    evidence.get("weight", 1.0),
+                    json.dumps(details, ensure_ascii=False),
+                )
+            )
+
+    connection.executemany(
+        """
+        INSERT INTO events (
+            event_id,
+            match_id,
+            event_type,
+            timestamp,
+            end_timestamp,
+            title,
+            description,
+            confidence,
+            entities_json
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(event_id)
+        DO UPDATE SET
+            match_id = excluded.match_id,
+            event_type = excluded.event_type,
+            timestamp = excluded.timestamp,
+            end_timestamp = excluded.end_timestamp,
+            title = excluded.title,
+            description = excluded.description,
+            confidence = excluded.confidence,
+            entities_json = excluded.entities_json
+        """,
+        event_rows,
+    )
+
+    connection.executemany(
+        """
+        INSERT INTO event_evidence (
+            evidence_id,
+            event_id,
+            source_type,
+            source_id,
+            source_timestamp,
+            source_value,
+            confidence,
+            weight,
+            details_json
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(evidence_id)
+        DO UPDATE SET
+            event_id = excluded.event_id,
+            source_type = excluded.source_type,
+            source_id = excluded.source_id,
+            source_timestamp = excluded.source_timestamp,
+            source_value = excluded.source_value,
+            confidence = excluded.confidence,
+            weight = excluded.weight,
+            details_json = excluded.details_json
+        """,
+        evidence_rows,
+    )
+
+
+def persist_events(
+    db_path: str,
+    match_id: str,
+    events: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_events(connection, match_id, events)
