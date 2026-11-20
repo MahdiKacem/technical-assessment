@@ -163,6 +163,19 @@ def initialize_database(db_path: str) -> None:
             ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS event_keyframes (
+        event_keyframe_id TEXT PRIMARY KEY,
+        event_id TEXT NOT NULL,
+        keyframe_id TEXT,
+        timestamp REAL NOT NULL,
+        image_path TEXT NOT NULL,
+        role TEXT NOT NULL,
+        FOREIGN KEY (event_id)
+            REFERENCES events(event_id)
+            ON DELETE CASCADE,
+        CHECK (role IN ('before', 'at_event', 'after'))
+    );
+
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
     ON scoreboard_observations(match_id, timestamp);
 
@@ -204,6 +217,9 @@ def initialize_database(db_path: str) -> None:
 
     CREATE INDEX IF NOT EXISTS idx_event_evidence_source
         ON event_evidence(source_type, source_id);
+
+    CREATE INDEX IF NOT EXISTS idx_event_keyframes_event
+        ON event_keyframes(event_id, timestamp);
     """
 
     with get_connection(db_path) as connection:
@@ -776,3 +792,65 @@ def persist_events(
 ) -> None:
     with get_connection(db_path) as connection:
         insert_events(connection, match_id, events)
+
+
+def insert_event_keyframes(
+    connection,
+    match_id: str,
+    manifest: list[dict],
+) -> None:
+    connection.execute(
+        """
+        DELETE FROM event_keyframes
+        WHERE event_id IN (
+            SELECT event_id FROM events WHERE match_id = ?
+        )
+        """,
+        (match_id,),
+    )
+
+    rows = []
+    for entry in manifest:
+        event_id = entry["event_id"]
+        for index, keyframe in enumerate(entry["keyframes"], start=1):
+            rows.append(
+                (
+                    f"{event_id}:keyframe:{index}",
+                    event_id,
+                    keyframe["keyframe_id"],
+                    keyframe["timestamp"],
+                    keyframe["image_path"],
+                    keyframe["role"],
+                )
+            )
+
+    connection.executemany(
+        """
+        INSERT INTO event_keyframes (
+            event_keyframe_id,
+            event_id,
+            keyframe_id,
+            timestamp,
+            image_path,
+            role
+        )
+        VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(event_keyframe_id)
+        DO UPDATE SET
+            event_id = excluded.event_id,
+            keyframe_id = excluded.keyframe_id,
+            timestamp = excluded.timestamp,
+            image_path = excluded.image_path,
+            role = excluded.role
+        """,
+        rows,
+    )
+
+
+def persist_event_keyframes(
+    db_path: str,
+    match_id: str,
+    manifest: list[dict],
+) -> None:
+    with get_connection(db_path) as connection:
+        insert_event_keyframes(connection, match_id, manifest)

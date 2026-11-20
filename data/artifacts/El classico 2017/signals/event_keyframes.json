@@ -1,0 +1,1039 @@
+[
+    {
+        "event_id": "El classico 2017:near_miss:901.93",
+        "event_type": "near_miss",
+        "timestamp": 901.93,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:901.93:before",
+                "timestamp": 896.93,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_901.93/before.jpg",
+                "role": "before",
+                "target_timestamp": 896.93
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:901.93:at_event",
+                "timestamp": 901.93,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_901.93/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 901.93
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:928.62",
+        "event_type": "near_miss",
+        "timestamp": 928.62,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:928.62:before",
+                "timestamp": 923.62,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/before.jpg",
+                "role": "before",
+                "target_timestamp": 923.62
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:928.62:at_event",
+                "timestamp": 928.62,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 928.62
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:928.62:after",
+                "timestamp": 933.62,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_928.62/after.jpg",
+                "role": "after",
+                "target_timestamp": 933.62
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:982.27:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 982.27,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:982.27:candidate:before",
+                "timestamp": 977.27,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 977.27
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:982.27:candidate:at_event",
+                "timestamp": 982.27,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 982.27
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:982.27:candidate:after",
+                "timestamp": 992.27,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_982.27_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 992.27
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1012.31:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1012.31,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1012.31:candidate:before",
+                "timestamp": 1007.31,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 1007.31
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1012.31:candidate:at_event",
+                "timestamp": 1012.31,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1012.31
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1012.31:candidate:after",
+                "timestamp": 1022.31,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1012.31_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 1022.31
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1055.0:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1055.0,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1055.0:candidate:before",
+                "timestamp": 1050.0,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 1050.0
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1055.0:candidate:at_event",
+                "timestamp": 1055.0,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1055.0
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1055.0:candidate:after",
+                "timestamp": 1065.0,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1055.0_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 1065.0
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:1058.4:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 1058.4,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:red_card:1058.4:candidate:before",
+                "timestamp": 1053.4,
+                "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 1053.4
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:1058.4:candidate:at_event",
+                "timestamp": 1058.4,
+                "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1058.4
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:1058.4:candidate:after",
+                "timestamp": 1068.4,
+                "image_path": "event_keyframes/El_classico_2017_red_card_1058.4_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 1068.4
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:1072.415:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 1072.415,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1072.415:candidate:before",
+                "timestamp": 1067.415,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 1067.415
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1072.415:candidate:at_event",
+                "timestamp": 1072.415,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1072.415
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:1072.415:candidate:after",
+                "timestamp": 1082.415,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_1072.415_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 1082.415
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1684.01",
+        "event_type": "near_miss",
+        "timestamp": 1684.01,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:1684.01:before",
+                "timestamp": 1679.01,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/before.jpg",
+                "role": "before",
+                "target_timestamp": 1679.01
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:1684.01:at_event",
+                "timestamp": 1684.01,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1684.01
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:1684.01:after",
+                "timestamp": 1689.01,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1684.01/after.jpg",
+                "role": "after",
+                "target_timestamp": 1689.01
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:1998.36",
+        "event_type": "near_miss",
+        "timestamp": 1998.36,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:1998.36:before",
+                "timestamp": 1993.36,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/before.jpg",
+                "role": "before",
+                "target_timestamp": 1993.36
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:1998.36:at_event",
+                "timestamp": 1998.36,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 1998.36
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:1998.36:after",
+                "timestamp": 2003.36,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_1998.36/after.jpg",
+                "role": "after",
+                "target_timestamp": 2003.36
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2288.13",
+        "event_type": "near_miss",
+        "timestamp": 2288.13,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:2288.13:before",
+                "timestamp": 2283.13,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/before.jpg",
+                "role": "before",
+                "target_timestamp": 2283.13
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2288.13:at_event",
+                "timestamp": 2288.13,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2288.13
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2288.13:after",
+                "timestamp": 2293.13,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2288.13/after.jpg",
+                "role": "after",
+                "target_timestamp": 2293.13
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2570.96:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2570.96,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2570.96:candidate:before",
+                "timestamp": 2565.96,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 2565.96
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2570.96:candidate:at_event",
+                "timestamp": 2570.96,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2570.96
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2570.96:candidate:after",
+                "timestamp": 2580.96,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2570.96_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 2580.96
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:2581.375:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 2581.375,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:substitution:2581.375:candidate:before",
+                "timestamp": 2566.375,
+                "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 2566.375
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:2581.375:candidate:at_event",
+                "timestamp": 2581.375,
+                "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2581.375
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:2581.375:candidate:after",
+                "timestamp": 2596.375,
+                "image_path": "event_keyframes/El_classico_2017_substitution_2581.375_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 2596.375
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2596.28:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2596.28,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2596.28:candidate:before",
+                "timestamp": 2591.28,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 2591.28
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2596.28:candidate:at_event",
+                "timestamp": 2596.28,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2596.28
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2596.28:candidate:after",
+                "timestamp": 2606.28,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2596.28_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 2606.28
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2688.2",
+        "event_type": "near_miss",
+        "timestamp": 2688.2,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:2688.2:before",
+                "timestamp": 2683.2,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/before.jpg",
+                "role": "before",
+                "target_timestamp": 2683.2
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2688.2:at_event",
+                "timestamp": 2688.2,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2688.2
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2688.2:after",
+                "timestamp": 2693.2,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2688.2/after.jpg",
+                "role": "after",
+                "target_timestamp": 2693.2
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:2844.76",
+        "event_type": "near_miss",
+        "timestamp": 2844.76,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:2844.76:before",
+                "timestamp": 2839.76,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/before.jpg",
+                "role": "before",
+                "target_timestamp": 2839.76
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2844.76:at_event",
+                "timestamp": 2844.76,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2844.76
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:2844.76:after",
+                "timestamp": 2849.76,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_2844.76/after.jpg",
+                "role": "after",
+                "target_timestamp": 2849.76
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:2939.865:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 2939.865,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2939.865:candidate:before",
+                "timestamp": 2934.865,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 2934.865
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2939.865:candidate:at_event",
+                "timestamp": 2939.865,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 2939.865
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:2939.865:candidate:after",
+                "timestamp": 2949.865,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_2939.865_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 2949.865
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3008.09:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3008.09,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3008.09:candidate:before",
+                "timestamp": 3003.09,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 3003.09
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3008.09:candidate:at_event",
+                "timestamp": 3008.09,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3008.09
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3008.09:candidate:after",
+                "timestamp": 3018.09,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3008.09_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 3018.09
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3039.43:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3039.43,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3039.43:candidate:before",
+                "timestamp": 3034.43,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 3034.43
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3039.43:candidate:at_event",
+                "timestamp": 3039.43,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3039.43
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3039.43:candidate:after",
+                "timestamp": 3049.43,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3039.43_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 3049.43
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3250.24:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3250.24,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3250.24:candidate:before",
+                "timestamp": 3245.24,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 3245.24
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3250.24:candidate:at_event",
+                "timestamp": 3250.24,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3250.24
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3250.24:candidate:after",
+                "timestamp": 3260.24,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3250.24_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 3260.24
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3430.96",
+        "event_type": "near_miss",
+        "timestamp": 3430.96,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:3430.96:before",
+                "timestamp": 3425.96,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/before.jpg",
+                "role": "before",
+                "target_timestamp": 3425.96
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:3430.96:at_event",
+                "timestamp": 3430.96,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3430.96
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:3430.96:after",
+                "timestamp": 3435.96,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3430.96/after.jpg",
+                "role": "after",
+                "target_timestamp": 3435.96
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:3532.44:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 3532.44,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3532.44:candidate:before",
+                "timestamp": 3527.44,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 3527.44
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3532.44:candidate:at_event",
+                "timestamp": 3532.44,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3532.44
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:3532.44:candidate:after",
+                "timestamp": 3542.44,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_3532.44_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 3542.44
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:3944.14",
+        "event_type": "near_miss",
+        "timestamp": 3944.14,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:3944.14:before",
+                "timestamp": 3939.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/before.jpg",
+                "role": "before",
+                "target_timestamp": 3939.14
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:3944.14:at_event",
+                "timestamp": 3944.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 3944.14
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:3944.14:after",
+                "timestamp": 3949.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_3944.14/after.jpg",
+                "role": "after",
+                "target_timestamp": 3949.14
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4555.14",
+        "event_type": "near_miss",
+        "timestamp": 4555.14,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:4555.14:before",
+                "timestamp": 4550.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/before.jpg",
+                "role": "before",
+                "target_timestamp": 4550.14
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4555.14:at_event",
+                "timestamp": 4555.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4555.14
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4555.14:after",
+                "timestamp": 4560.14,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4555.14/after.jpg",
+                "role": "after",
+                "target_timestamp": 4560.14
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4584.83",
+        "event_type": "near_miss",
+        "timestamp": 4584.83,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:4584.83:before",
+                "timestamp": 4579.83,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/before.jpg",
+                "role": "before",
+                "target_timestamp": 4579.83
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4584.83:at_event",
+                "timestamp": 4584.83,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4584.83
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4584.83:after",
+                "timestamp": 4589.83,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4584.83/after.jpg",
+                "role": "after",
+                "target_timestamp": 4589.83
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4608.33",
+        "event_type": "near_miss",
+        "timestamp": 4608.33,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:4608.33:before",
+                "timestamp": 4603.33,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/before.jpg",
+                "role": "before",
+                "target_timestamp": 4603.33
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4608.33:at_event",
+                "timestamp": 4608.33,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4608.33
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4608.33:after",
+                "timestamp": 4613.33,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4608.33/after.jpg",
+                "role": "after",
+                "target_timestamp": 4613.33
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:4698.735:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 4698.735,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:substitution:4698.735:candidate:before",
+                "timestamp": 4683.735,
+                "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 4683.735
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:4698.735:candidate:at_event",
+                "timestamp": 4698.735,
+                "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4698.735
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:4698.735:candidate:after",
+                "timestamp": 4713.735,
+                "image_path": "event_keyframes/El_classico_2017_substitution_4698.735_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 4713.735
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:4707.895:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 4707.895,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:4707.895:candidate:before",
+                "timestamp": 4702.895,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 4702.895
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:4707.895:candidate:at_event",
+                "timestamp": 4707.895,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4707.895
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:4707.895:candidate:after",
+                "timestamp": 4717.895,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_4707.895_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 4717.895
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:4838.21",
+        "event_type": "near_miss",
+        "timestamp": 4838.21,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:4838.21:before",
+                "timestamp": 4833.21,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/before.jpg",
+                "role": "before",
+                "target_timestamp": 4833.21
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4838.21:at_event",
+                "timestamp": 4838.21,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 4838.21
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:4838.21:after",
+                "timestamp": 4843.21,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_4838.21/after.jpg",
+                "role": "after",
+                "target_timestamp": 4843.21
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5187.25",
+        "event_type": "red_card",
+        "timestamp": 5187.25,
+        "confidence": 1.0,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:red_card:5187.25:before",
+                "timestamp": 5182.25,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/before.jpg",
+                "role": "before",
+                "target_timestamp": 5182.25
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5187.25:at_event",
+                "timestamp": 5187.25,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5187.25
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5187.25:after",
+                "timestamp": 5197.25,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5187.25/after.jpg",
+                "role": "after",
+                "target_timestamp": 5197.25
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5215.66:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 5215.66,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:red_card:5215.66:candidate:before",
+                "timestamp": 5210.66,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 5210.66
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5215.66:candidate:at_event",
+                "timestamp": 5215.66,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5215.66
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5215.66:candidate:after",
+                "timestamp": 5225.66,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5215.66_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 5225.66
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5393.68:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 5393.68,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5393.68:candidate:before",
+                "timestamp": 5388.68,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 5388.68
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5393.68:candidate:at_event",
+                "timestamp": 5393.68,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5393.68
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5393.68:candidate:after",
+                "timestamp": 5403.68,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5393.68_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 5403.68
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:yellow_card:5405.4:candidate",
+        "event_type": "yellow_card_candidate",
+        "timestamp": 5405.4,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5405.4:candidate:before",
+                "timestamp": 5400.4,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 5400.4
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5405.4:candidate:at_event",
+                "timestamp": 5405.4,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5405.4
+            },
+            {
+                "keyframe_id": "El classico 2017:yellow_card:5405.4:candidate:after",
+                "timestamp": 5415.4,
+                "image_path": "event_keyframes/El_classico_2017_yellow_card_5405.4_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 5415.4
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:red_card:5478.98:candidate",
+        "event_type": "red_card_candidate",
+        "timestamp": 5478.98,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:red_card:5478.98:candidate:before",
+                "timestamp": 5473.98,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 5473.98
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5478.98:candidate:at_event",
+                "timestamp": 5478.98,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5478.98
+            },
+            {
+                "keyframe_id": "El classico 2017:red_card:5478.98:candidate:after",
+                "timestamp": 5488.98,
+                "image_path": "event_keyframes/El_classico_2017_red_card_5478.98_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 5488.98
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5485.48",
+        "event_type": "near_miss",
+        "timestamp": 5485.48,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:5485.48:before",
+                "timestamp": 5480.48,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/before.jpg",
+                "role": "before",
+                "target_timestamp": 5480.48
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:5485.48:at_event",
+                "timestamp": 5485.48,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5485.48
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:5485.48:after",
+                "timestamp": 5490.48,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5485.48/after.jpg",
+                "role": "after",
+                "target_timestamp": 5490.48
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:substitution:5671.42:candidate",
+        "event_type": "substitution_candidate",
+        "timestamp": 5671.42,
+        "confidence": 0.65,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:substitution:5671.42:candidate:before",
+                "timestamp": 5656.42,
+                "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/before.jpg",
+                "role": "before",
+                "target_timestamp": 5656.42
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:5671.42:candidate:at_event",
+                "timestamp": 5671.42,
+                "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5671.42
+            },
+            {
+                "keyframe_id": "El classico 2017:substitution:5671.42:candidate:after",
+                "timestamp": 5686.42,
+                "image_path": "event_keyframes/El_classico_2017_substitution_5671.42_candidate/after.jpg",
+                "role": "after",
+                "target_timestamp": 5686.42
+            }
+        ]
+    },
+    {
+        "event_id": "El classico 2017:near_miss:5754.85",
+        "event_type": "near_miss",
+        "timestamp": 5754.85,
+        "confidence": 0.75,
+        "keyframes": [
+            {
+                "keyframe_id": "El classico 2017:near_miss:5754.85:before",
+                "timestamp": 5749.85,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/before.jpg",
+                "role": "before",
+                "target_timestamp": 5749.85
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:5754.85:at_event",
+                "timestamp": 5754.85,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/at_event.jpg",
+                "role": "at_event",
+                "target_timestamp": 5754.85
+            },
+            {
+                "keyframe_id": "El classico 2017:near_miss:5754.85:after",
+                "timestamp": 5759.85,
+                "image_path": "event_keyframes/El_classico_2017_near_miss_5754.85/after.jpg",
+                "role": "after",
+                "target_timestamp": 5759.85
+            }
+        ]
+    }
+]

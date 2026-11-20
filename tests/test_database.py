@@ -6,6 +6,8 @@ from pipeline.database import (
     insert_audio_features,
     insert_audio_peaks,
     insert_card_events,
+    insert_event_keyframes,
+    insert_events,
 )
 
 
@@ -204,3 +206,52 @@ def test_insert_card_events_deduplicates_red_card(tmp_path):
     assert row["card_type"] == "red"
     assert row["team"] == "RMA"
     assert row["player_name"] == "SERGIO RAMOS"
+
+
+def test_insert_event_keyframes(tmp_path):
+    db_path = tmp_path / "match.db"
+    initialize_database(str(db_path))
+
+    event = {
+        "event_id": "test:goal:100",
+        "event_type": "goal",
+        "timestamp": 100.0,
+        "confidence": 0.95,
+        "entities": {"resolution_status": "confirmed"},
+        "evidence": [],
+    }
+    manifest = [
+        {
+            "event_id": event["event_id"],
+            "keyframes": [
+                {
+                    "keyframe_id": "keyframe_0001",
+                    "timestamp": 90.0,
+                    "image_path": "keyframes/keyframe_0001.jpg",
+                    "role": "before",
+                }
+            ],
+        }
+    ]
+
+    with get_connection(str(db_path)) as connection:
+        insert_match(
+            connection,
+            "test-match",
+            "test.mp4",
+            {"duration_seconds": 100.0},
+        )
+        insert_events(connection, "test-match", [event])
+        insert_event_keyframes(connection, "test-match", manifest)
+        row = connection.execute(
+            """
+            SELECT keyframe_id, timestamp, image_path, role
+            FROM event_keyframes
+            WHERE event_id = ?
+            """,
+            (event["event_id"],),
+        ).fetchone()
+
+    assert row["keyframe_id"] == "keyframe_0001"
+    assert row["timestamp"] == 90.0
+    assert row["role"] == "before"

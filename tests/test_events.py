@@ -12,6 +12,8 @@ from pipeline.events import (
     extract_audio_events,
     extract_transcription_events,
     cluster_events,
+    select_event_keyframes,
+    select_keyframes_for_events,
 )
 
 
@@ -304,3 +306,59 @@ def test_fusion_near_miss_does_not_disprove_card():
 
     assert len(red_events) == 1
     assert red_events[0]["confidence"] == 0.90
+
+
+def test_select_event_keyframes_uses_before_at_and_after():
+    event = {
+        "event_id": "goal",
+        "event_type": "goal",
+        "timestamp": 100.0,
+        "confidence": 0.95,
+        "entities": {"resolution_status": "confirmed"},
+    }
+    keyframes = [
+        {"keyframe_id": "before", "timestamp": 90.0, "image_path": "before.jpg"},
+        {"keyframe_id": "at", "timestamp": 100.0, "image_path": "at.jpg"},
+        {"keyframe_id": "after", "timestamp": 110.0, "image_path": "after.jpg"},
+    ]
+
+    selected = select_event_keyframes(event, keyframes)
+
+    assert [item["role"] for item in selected] == [
+        "before",
+        "at_event",
+        "after",
+    ]
+    assert [item["keyframe_id"] for item in selected] == [
+        "before",
+        "at",
+        "after",
+    ]
+
+
+def test_keyframe_manifest_skips_low_confidence_candidates():
+    events = [
+        {
+            "event_id": "candidate",
+            "event_type": "goal_candidate",
+            "timestamp": 50.0,
+            "confidence": 0.65,
+            "entities": {"resolution_status": "candidate"},
+        },
+        {
+            "event_id": "confirmed",
+            "event_type": "goal",
+            "timestamp": 100.0,
+            "confidence": 0.95,
+            "entities": {"resolution_status": "confirmed"},
+        },
+    ]
+    keyframes = [
+        {"keyframe_id": "k1", "timestamp": 90.0, "image_path": "90.jpg"},
+        {"keyframe_id": "k2", "timestamp": 100.0, "image_path": "100.jpg"},
+        {"keyframe_id": "k3", "timestamp": 110.0, "image_path": "110.jpg"},
+    ]
+
+    manifest = select_keyframes_for_events(events, keyframes)
+
+    assert [entry["event_id"] for entry in manifest] == ["confirmed"]
