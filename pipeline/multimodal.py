@@ -100,6 +100,25 @@ def get_event_keyframe_documents(connection, event_id: str) -> list[dict]:
     return [dict(row) for row in rows]
 
 
+def find_cached_embedding(
+    connection,
+    source_type: str,
+    source_id: str,
+    model_name: str,
+    model_version: str | None,
+    content: str | bytes,
+) -> str | None:
+    row = connection.execute(
+        """
+        SELECT embedding_id FROM multimodal_embeddings
+        WHERE model_name = ? AND model_version IS ? AND content_hash = ?
+          AND source_type = ? AND source_id = ?
+        """,
+        (model_name, model_version, content_hash(content), source_type, source_id),
+    ).fetchone()
+    return row["embedding_id"] if row else None
+
+
 def persist_embedding(
     connection,
     match_id: str,
@@ -191,10 +210,9 @@ def record_embedding_usage(
     latency_ms: int | None = None,
     success: bool = True,
 ) -> str:
-    usage_id = (
-        f"{match_id}:embedding-usage:{model_name}:{modality}:"
-        f"{content_hash(f'{item_count}:{cache_hits}:{latency_ms}')[:16]}"
-    )
+    import time
+
+    usage_id = f"{match_id}:embedding-usage:{model_name}:{modality}:{time.time_ns()}"
     connection.execute(
         """
         INSERT INTO embedding_usage (

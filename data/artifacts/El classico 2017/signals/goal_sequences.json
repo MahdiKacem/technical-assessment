@@ -1,0 +1,241 @@
+[
+    {
+        "sequence_id": "El classico 2017:goal:1955.25:sequence",
+        "clip_start": 1939.56,
+        "clip_end": 1975.86,
+        "cut_notes": [
+            "start moved +0.43s to sentence boundary (was inside: \"Corner for Madrid's here.\")",
+            "end moved -5.14s to sentence boundary (was inside: \"For Carlos Enrique Casamiro, who slotted the ball home for t\"; sentence runs into the replay at 1982.00s)"
+        ],
+        "event_id": "El classico 2017:goal:1955.25",
+        "match_id": "El classico 2017",
+        "status": "ok",
+        "buildup_start": 1939.12,
+        "goal_time": 1947.0,
+        "celebration_end": 1981.0,
+        "brackets": {
+            "buildup_start": {
+                "outside": 1938.25,
+                "inside": 1940.0,
+                "estimate": 1939.12,
+                "open": false
+            },
+            "goal": {
+                "outside": 1946.5,
+                "inside": 1947.5,
+                "estimate": 1947.0,
+                "open": false
+            },
+            "celebration_end": {
+                "outside": 1982.0,
+                "inside": 1980.0,
+                "estimate": 1981.0,
+                "open": false
+            }
+        },
+        "replays": [
+            [
+                1920.25,
+                1920.25
+            ],
+            [
+                1982.0,
+                1985.25
+            ]
+        ],
+        "issues": [],
+        "notes": [
+            "Frame 4 shows a replay of earlier Bale action during corner preparation. Frame 18 shows the broadcast replay of the build-up cross.",
+            "Frames 1-6 show buildup leading to Casemiro's goal; frame 7 captures the rebound/shot; 8-9 show fans reacting; 10-11 replay the move."
+        ],
+        "frame_labels": [
+            {
+                "t": 1910.25,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001910.25.jpg"
+            },
+            {
+                "t": 1913.0,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001913.00.jpg"
+            },
+            {
+                "t": 1915.25,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001915.25.jpg"
+            },
+            {
+                "t": 1920.25,
+                "label": "replay",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001920.25.jpg"
+            },
+            {
+                "t": 1929.0,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001929.00.jpg"
+            },
+            {
+                "t": 1933.25,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001933.25.jpg"
+            },
+            {
+                "t": 1938.25,
+                "label": "stoppage",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001938.25.jpg"
+            },
+            {
+                "t": 1940.0,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001940.00.jpg"
+            },
+            {
+                "t": 1941.0,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001941.00.jpg"
+            },
+            {
+                "t": 1942.0,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001942.00.jpg"
+            },
+            {
+                "t": 1943.0,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001943.00.jpg"
+            },
+            {
+                "t": 1944.25,
+                "label": "buildup",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001944.25.jpg"
+            },
+            {
+                "t": 1945.5,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001945.50.jpg"
+            },
+            {
+                "t": 1946.5,
+                "label": "buildup",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001946.50.jpg"
+            },
+            {
+                "t": 1947.5,
+                "label": "goal",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001947.50.jpg"
+            },
+            {
+                "t": 1948.25,
+                "label": "goal",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001948.25.jpg"
+            },
+            {
+                "t": 1951.5,
+                "label": "celebration",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001951.50.jpg"
+            },
+            {
+                "t": 1953.75,
+                "label": "celebration",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001953.75.jpg"
+            },
+            {
+                "t": 1955.25,
+                "label": "celebration",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001955.25.jpg"
+            },
+            {
+                "t": 1957.25,
+                "label": "celebration",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001957.25.jpg"
+            },
+            {
+                "t": 1960.25,
+                "label": "reaction",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001960.25.jpg"
+            },
+            {
+                "t": 1964.25,
+                "label": "reaction",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001964.25.jpg"
+            },
+            {
+                "t": 1971.25,
+                "label": "reaction",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001971.25.jpg"
+            },
+            {
+                "t": 1978.25,
+                "label": "reaction",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001978.25.jpg"
+            },
+            {
+                "t": 1979.0,
+                "label": "reaction",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001979.00.jpg"
+            },
+            {
+                "t": 1980.0,
+                "label": "reaction",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001980.00.jpg"
+            },
+            {
+                "t": 1982.0,
+                "label": "replay",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001982.00.jpg"
+            },
+            {
+                "t": 1983.5,
+                "label": "replay",
+                "round": 1,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round1\\t001983.50.jpg"
+            },
+            {
+                "t": 1985.25,
+                "label": "replay",
+                "round": 0,
+                "path": "data\\artifacts\\El classico 2017\\goal_sequences\\El_classico_2017_goal_1955.25\\round0\\t001985.25.jpg"
+            }
+        ],
+        "model": "gemini-3.8-flash",
+        "prompt_version": "goal-seq-v2",
+        "feature_extractor": "handcrafted-v1",
+        "budget": 18,
+        "rounds": 2,
+        "frames_sent": 29,
+        "candidates_extracted": 108,
+        "local_seconds": 4.21,
+        "total_seconds": 5.85,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "api_ms": 0,
+        "cache_hits": 2
+    }
+]

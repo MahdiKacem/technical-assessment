@@ -15,6 +15,13 @@ def get_connection(db_path: str) -> sqlite3.Connection:
     return connection
 
 
+def _add_missing_columns(connection, table: str, columns: dict[str, str]) -> None:
+    existing = {row["name"] for row in connection.execute(f"PRAGMA table_info({table})")}
+    for name, column_type in columns.items():
+        if name not in existing:
+            connection.execute(f"ALTER TABLE {table} ADD COLUMN {name} {column_type}")
+
+
 def initialize_database(db_path: str) -> None:
     """Create all initial database tables."""
 
@@ -261,6 +268,104 @@ def initialize_database(db_path: str) -> None:
         CHECK (modality IN ('text', 'image', 'text_image'))
     );
 
+    CREATE TABLE IF NOT EXISTS creative_briefs (
+        brief_id TEXT PRIMARY KEY,
+        match_id TEXT NOT NULL,
+        raw_text TEXT NOT NULL,
+        cache_key TEXT NOT NULL UNIQUE,
+        llm_output_json TEXT,
+        parsed_json TEXT NOT NULL,
+        model_name TEXT NOT NULL,
+        prompt_version TEXT NOT NULL,
+        schema_version TEXT NOT NULL,
+        effort TEXT,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (match_id)
+            REFERENCES matches(match_id)
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS llm_usage (
+        usage_id TEXT PRIMARY KEY,
+        stage TEXT NOT NULL,
+        match_id TEXT,
+        ref_id TEXT,
+        model_name TEXT NOT NULL,
+        prompt_version TEXT,
+        input_tokens INTEGER,
+        output_tokens INTEGER,
+        cache_read_tokens INTEGER,
+        latency_ms INTEGER,
+        estimated_cost REAL,
+        cache_hit INTEGER NOT NULL DEFAULT 0,
+        success INTEGER NOT NULL DEFAULT 1,
+        error TEXT,
+        request_id TEXT,
+        stop_reason TEXT,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS frame_analyses (
+        analysis_id TEXT PRIMARY KEY,
+        event_id TEXT NOT NULL,
+        round_index INTEGER NOT NULL,
+        model_name TEXT NOT NULL,
+        prompt_version TEXT NOT NULL,
+        context_text TEXT NOT NULL,
+        frames_json TEXT NOT NULL,
+        response_json TEXT NOT NULL,
+        input_tokens INTEGER,
+        output_tokens INTEGER,
+        thoughts_tokens INTEGER,
+        latency_ms INTEGER,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS goal_sequences (
+        sequence_id TEXT PRIMARY KEY,
+        event_id TEXT NOT NULL,
+        match_id TEXT NOT NULL,
+        status TEXT NOT NULL,
+        buildup_start REAL NOT NULL,
+        goal_time REAL NOT NULL,
+        celebration_end REAL NOT NULL,
+        brackets_json TEXT,
+        replays_json TEXT,
+        issues_json TEXT,
+        frame_labels_json TEXT,
+        model_name TEXT NOT NULL,
+        prompt_version TEXT NOT NULL,
+        feature_extractor TEXT,
+        details_json TEXT,
+        clip_start REAL,
+        clip_end REAL,
+        cut_notes_json TEXT,
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (event_id)
+            REFERENCES events(event_id)
+            ON DELETE CASCADE,
+        CHECK (status IN ('ok', 'uncertain', 'fallback'))
+    );
+
+    CREATE TABLE IF NOT EXISTS stage_runs (
+        run_id TEXT PRIMARY KEY,
+        stage TEXT NOT NULL,
+        match_id TEXT,
+        started_at TEXT NOT NULL,
+        elapsed_seconds REAL,
+        status TEXT NOT NULL,
+        params_json TEXT,
+        summary_json TEXT,
+        error TEXT,
+        CHECK (status IN ('running', 'success', 'failed'))
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_stage_runs_stage
+        ON stage_runs(stage, started_at);
+
+    CREATE INDEX IF NOT EXISTS idx_llm_usage_stage
+        ON llm_usage(stage, created_at);
+
     CREATE INDEX IF NOT EXISTS idx_scoreboard_match_time
     ON scoreboard_observations(match_id, timestamp);
 
@@ -330,6 +435,10 @@ def initialize_database(db_path: str) -> None:
 
     with get_connection(db_path) as connection:
         connection.executescript(schema)
+        _add_missing_columns(connection, "creative_briefs", {"llm_output_json": "TEXT"})
+        _add_missing_columns(connection, "goal_sequences", {
+            "clip_start": "REAL", "clip_end": "REAL", "cut_notes_json": "TEXT",
+        })
         try:
             connection.execute(
                 """
@@ -595,57 +704,50 @@ def insert_scoreboard_observations(
     if observations and "raw_text" in observations[0]:
         parsed_observations = observations
     else:
-        from pipeline.analysis.scoreboard_parser import parse_scoreboard
-
-        teams = connection.execute(
-            """
-            SELECT name, side
-            FROM teams
-            WHERE match_id = ?
-            """,
-            (match_id,),
-        ).fetchall()
-        players = connection.execute(
-            """
-            SELECT shirt_number, name, position, role
-            FROM players
-            WHERE match_id = ?
-            """,
-            (match_id,),
-        ).fetchall()
-
-        left_team = next(
-            (team["name"] for team in teams if team["side"] == "home"),
-            None,
-        )
-        right_team = next(
-            (team["name"] for team in teams if team["side"] == "away"),
-            None,
-        )
-        team_labels = {
-            "left": left_team,
-            "right": right_team,
-        }
-        player_values = [
-            {
-                "shirt_number": player["shirt_number"],
-                "name": player["name"],
-                "position": player["position"],
-                "role": player["role"],
-            }
-            for player in players
-        ]
-
-        parsed_observations = parse_scoreboard(
-            observations,
-            team_labels=team_labels,
-            players=player_values,
+        parsed_observations = parse_scoreboard_with_roster(
+            connection, match_id, observations
         )
 
     for observation in observations:
         if "timestamp" not in observation:
             continue
         raw_by_timestamp.setdefault(observation["timestamp"], []).append(observation)
+
+    return _insert_parsed_scoreboard(
+        connection, match_id, parsed_observations, raw_by_timestamp
+    )
+
+
+def parse_scoreboard_with_roster(connection, match_id: str, observations: list[dict]) -> list[dict]:
+    from pipeline.analysis.scoreboard_parser import parse_scoreboard
+
+    teams = connection.execute(
+        "SELECT name, side FROM teams WHERE match_id = ?", (match_id,)
+    ).fetchall()
+    players = connection.execute(
+        "SELECT shirt_number, name, position, role FROM players WHERE match_id = ?",
+        (match_id,),
+    ).fetchall()
+
+    team_labels = {
+        "left": next((t["name"] for t in teams if t["side"] == "home"), None),
+        "right": next((t["name"] for t in teams if t["side"] == "away"), None),
+    }
+    player_values = [dict(player) for player in players]
+
+    return parse_scoreboard(
+        observations,
+        team_labels=team_labels,
+        players=player_values,
+    )
+
+
+def _insert_parsed_scoreboard(
+    connection,
+    match_id: str,
+    parsed_observations: list[dict],
+    raw_by_timestamp: dict,
+) -> None:
 
     rows = []
     for index, parsed in enumerate(parsed_observations, start=1):
